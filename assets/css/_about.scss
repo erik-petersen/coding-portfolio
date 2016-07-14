@@ -1,0 +1,16 @@
+.main-about {
+
+  .line {
+    content: "";
+    height: .5em;
+    background-color: $color-myName;
+  }
+
+  .erik-headshot {
+    width: 12em;
+    border-radius: 50%;
+    // margin: 5% 42% 0 42%;
+    position: relative;
+    left: 42%;
+  }
+} // end main-about

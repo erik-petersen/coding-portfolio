@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite|Montez|Forum|Oregano|Lancelot|Amita);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Cinzel+Decorative:400,700|Poiret+One);
+main {
+  width: 100%; }
+
+.teaser-container {
+  margin: 0 0 3em 11em; }
+
+.project-teaser {
+  width: 23%;
+  height: 18em;
+  display: inline-block;
+  background-color: #242424;
+  margin: 0 2em 0 2em; }
+  .project-teaser h3 {
+    display: none; }
+  .project-teaser img {
+    width: 100%;
+    height: 18em; }
+
+header .header-background {
+  width: 100%;
+  height: 20em;
+  margin: 2.5em 0 2.5em 0; }
+header h1 {
+  font-family: "Special Elite", cursive;
+  font-size: 2.15em;
+  color: #598CAE;
+  position: absolute;
+  top: .75em;
+  left: 2em; }
+  header h1 a {
+    text-decoration: none;
+    color: #598CAE; }
+header h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #C9C39B;
+  padding-bottom: 2em; }
+header .main-nav, header h2, header footer {
+  width: 100%;
+  padding: 1.75em 0 1em 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #262E30; }
+  header .main-nav .nav-list, header h2 .nav-list, header footer .nav-list {
+    list-style: none;
+    text-align: right;
+    margin-right: 1.75em; }
+  header .main-nav li, header h2 li, header footer li {
+    display: inline-block;
+    padding: 0 .5em 0 .5em;
+    margin: 0 .75em 0 .75em;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .1em; }
+  header .main-nav .rolling-pin-pic1, header h2 .rolling-pin-pic1, header footer .rolling-pin-pic1,
+  header .main-nav .rolling-pin-pic2,
+  header h2 .rolling-pin-pic2,
+  header footer .rolling-pin-pic2,
+  header .main-nav .rolling-pin-pic3,
+  header h2 .rolling-pin-pic3,
+  header footer .rolling-pin-pic3,
+  header .main-nav .rolling-pin-pic4,
+  header h2 .rolling-pin-pic4,
+  header footer .rolling-pin-pic4 {
+    width: 6em;
+    position: absolute;
+    top: 2.75em; }
+  header .main-nav .rolling-pin-pic1, header h2 .rolling-pin-pic1, header footer .rolling-pin-pic1 {
+    right: 17.45em; }
+  header .main-nav .rolling-pin-pic2, header h2 .rolling-pin-pic2, header footer .rolling-pin-pic2 {
+    right: 10.75em; }
+  header .main-nav .rolling-pin-pic4, header h2 .rolling-pin-pic4, header footer .rolling-pin-pic4 {
+    right: 4.25em; }
+  header .main-nav li:last-child, header h2 li:last-child, header footer li:last-child {
+    margin-right: 3em; }
+  header .main-nav a, header h2 a, header footer a {
+    text-decoration: none;
+    color: #262E30; }
+
+footer {
+  text-align: center;
+  color: #fff; }
+  footer .footer-nav li {
+    display: inline-block;
+    font-size: 2.25em;
+    padding: 1.75em 1em 0 1em; }
+  footer .footer-image {
+    height: 3.5em;
+    width: 100%; }
+
+.main-home .main-background {
+  width: 100%;
+  height: 738px;
+  padding-top: .65em;
+  margin-bottom: 15em; }
+
+.main-about .line {
+  content: "";
+  height: .5em;
+  background-color: #598CAE; }
+.main-about .erik-headshot {
+  width: 12em;
+  border-radius: 50%;
+  position: relative;
+  left: 42%; }
+
+.main-portfolio h2 {
+  text-align: center;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1.75em;
+  color: #fff;
+  padding: 1.5em 0 2.5em 0; }
+.main-portfolio .teaser-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  height: 130em;
+  margin-top: .65em;
+  background-color: #262E30; }
+  .main-portfolio .teaser-container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .main-portfolio .teaser-container img {
+    height: 30em;
+    margin-top: 4%; }
+.main-portfolio aside {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 4.5%; }
+  .main-portfolio aside .tech-heading {
+    text-align: center; }
+  .main-portfolio aside .tech {
+    margin: 8% 20% 0 20%;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: #fff;
+    line-height: 1.75em; }
+.main-portfolio img,
+.main-portfolio h3 {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  margin-left: 30%; }
+.main-portfolio h3 {
+  text-align: center; }
+.main-portfolio .tech-heading,
+.main-portfolio h3 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #598CAE; }
+.main-portfolio .iron-pet,
+.main-portfolio .iron-pet aside,
+.main-portfolio .iron-pet .tech-heading,
+.main-portfolio .iron-pet .tech,
+.main-portfolio .iron-pet img,
+.main-portfolio .iron-pet h3 {
+  top: 110%; }
+.main-portfolio .memory,
+.main-portfolio .memory aside,
+.main-portfolio .memory .tech-heading,
+.main-portfolio .memory .tech,
+.main-portfolio .memory img,
+.main-portfolio .memory h3 {
+  top: 205%; }
+
+/*# sourceMappingURL=styles.css.map */

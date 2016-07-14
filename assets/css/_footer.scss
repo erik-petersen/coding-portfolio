@@ -1,0 +1,25 @@
+footer {
+    @extend .main-nav;
+    // background-color: #000;
+    text-align: center;
+    // position: relative;
+    // left: 30%;
+    // right: 10%;
+    color: #fff;
+
+    .footer-nav {
+
+    }
+
+    .footer-nav li{
+      display: inline-block;
+      font-size: 2.25em;
+      padding: 1.75em 1em 0 1em;
+    }
+
+    .footer-image {
+      // width: 22.15em;
+      height: 3.5em;
+      width: 100%;
+    }
+} // end footer

@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/erik-petersen/portfolio",
+  "authors": [
+    "Erik Petersen <contacterikpetersen@gmail.com>"
+  ],
+  "description": "Erik's Professional Portfolio",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "meyer-reset": "*",
+    "font-awesome": "^4.6.3",
+    "susy": "^2.2.12",
+    "jquery": "^3.1.0"
+  }
+}

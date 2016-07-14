@@ -3,55 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>ep | Web Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Cardo' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/main-stylesheet.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700|Cardo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
   </head>
-  <body>
+  <body ng-app="myApp">
     <header>
+      <h1><a href="#/home">erik petersen</a></h1>
       <nav class="main-nav">
         <ul class="nav-list">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#/portfolio" ng-mouseenter="options1=true" ng-mouseleave="options1=false">Portfolio</a>
+            <span ng-show="options1"><img class="rolling-pin-pic1" src="assets/images/rolling-pin.png"></span></li>
+          <li><a href="#/about" ng-mouseenter="options2=true" ng-mouseleave="options2=false">About</a>
+            <span ng-show="options2"><img class="rolling-pin-pic2" src="assets/images/rolling-pin.png"></span></li>
+          <!-- <li><a href="#/blog">Blog</a><img class="rolling-pin-pic3" src="assets/images/rolling-pin.png"></li> -->
+          <li><a href="#" ng-mouseenter="options3=true" ng-mouseleave="options3=false">Contact</a>
+            <span ng-show="options3"><img class="rolling-pin-pic4" src="assets/images/rolling-pin.png"></span></li>
         </ul> <!-- end class "nav-list" -->
       </nav>
-      <img class="header-background" src="assets/images/header-background.jpg" alt="Gravely mountain path">
     </header>
 
-    <main>
-      <h2>Recent Work</h2>
-      <div class="teaser-container">
-        <article class="project-teaser">
-          <h3>Memory Game</h3>
-          <section>
-            <a href="http://erik-petersen.github.io/game.html"><img src="assets/images/memory-game.png"></a>
-          </section>
-        </article>
-        <article class="project-teaser">
-          <h3>Memory Game</h3>
-          <section></section>
-        </article>
-        <article class="project-teaser">
-          <h3>Memory Game</h3>
-          <section></section>
-        </article>
+    <div>
+      <ng-view></ng-view>
     </div>
-    </main>
+
     <footer class="main-footer">
-      <nav class="footer-nav">
+      <!-- <img class="footer-image" src="assets/images/real-footer.jpg"> -->
+      <!-- <nav class="footer-nav">
         <ul>
-          <li><a href="https://github.com/erik-petersen"><span class="fa fa-github" aria-hidden="true"></span></a></li>
-          <li><a href="Public Profilehttps://www.linkedin.com/in/ebpetersen"><span class="fa fa-linkedin-square" aria-hidden="true"></span></a></li>
-          <li><a href="mailto:contacterikpetersen@gmail.com"><span class="fa fa-envelope" aria-hidden="true"></span></li>
+          <li><a href="https://github.com/erik-petersen"><img class="footer-image" src="assets/images/linked-in-icon.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/ebpetersen"><img class="footer-image" src="assets/images/email-icon.png"></a></li>
+          <li><a href="mailto:contacterikpetersen@gmail.com"><img class="footer-image" src="assets/images/github-icon.png"></li>
         </ul>
-      </nav>
-      <p><small>&copy;Erik Petersen 2016</small></p>
+      </nav> -->
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-resource.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
