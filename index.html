@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -15,13 +14,10 @@
       <h1><a href="#/home">erik petersen</a></h1>
       <nav class="main-nav">
         <ul class="nav-list">
-          <li><a href="#/portfolio" ng-mouseenter="options1=true" ng-mouseleave="options1=false">Portfolio</a>
-            <span ng-show="options1"><img class="rolling-pin-pic1" src="assets/images/rolling-pin.png"></span></li>
-          <li><a href="#/about" ng-mouseenter="options2=true" ng-mouseleave="options2=false">About</a>
-            <span ng-show="options2"><img class="rolling-pin-pic2" src="assets/images/rolling-pin.png"></span></li>
-          <!-- <li><a href="#/blog">Blog</a><img class="rolling-pin-pic3" src="assets/images/rolling-pin.png"></li> -->
-          <li><a href="#" ng-mouseenter="options3=true" ng-mouseleave="options3=false">Contact</a>
-            <span ng-show="options3"><img class="rolling-pin-pic4" src="assets/images/rolling-pin.png"></span></li>
+          <li><a class="nav-item" data-clicked="no" href="#/portfolio"><span>Portfolio</span></a></li>
+            <!-- <span ng-show="options1"><img class="rolling-pin-pic1" src="assets/images/rolling-pin.png"></span></li> -->
+          <li><a class="nav-item" href="#/about"><span>About</span></a></li>
+          <li><a class="nav-item" href="#"><span>Contact</span></a></li>
         </ul> <!-- end class "nav-list" -->
       </nav>
     </header>
@@ -45,5 +41,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-resource.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>

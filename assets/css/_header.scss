@@ -43,7 +43,8 @@ header {
 
     li {
       display: inline-block;
-      padding: 0 .5em 0 .5em;
+      box-sizing: border-box;
+      padding: 0 .75em 0 .75em;
       margin: 0 .75em 0 .75em;
       cursor: pointer;
       text-align: center;
@@ -83,6 +84,37 @@ header {
     a {
       text-decoration: none;
       color: $color-nav;
+
+      .nav-class1 {
+        color: $color-myName;
+      }
+
+      .nav-class2 {
+        color: $color-myName;
+      }
+
+      .nav-class3 {
+        color: $color-myName;
+      }
+
+      &:hover {
+        padding-bottom: .35em;
+        border-bottom: .15em solid $color-myName;
+        color: $color-myName;
+      }
+
+      &:active {
+        color: $color-myName;
+      }
+
+      .nav-unclicked {
+        color: $color-nav;
+        text-decoration: none;
+      }
+
+      .nav-clicked {
+        color: $color-myName;
+      }
     }
   } // end .main-nav
 } // end header

@@ -4,6 +4,9 @@
     content: "";
     height: .5em;
     background-color: $color-myName;
+    position: relative;
+    top: 5.85em;
+
   }
 
   .erik-headshot {
@@ -12,5 +15,13 @@
     // margin: 5% 42% 0 42%;
     position: relative;
     left: 42%;
+  }
+
+  .about-me-text {
+    font-family: $sans-serif-stack;
+    font-size: 1.35em;
+    line-height: 2em;
+    color: $color-charcoal;
+    margin: 2em 3.35em 0 3.35em;
   }
 } // end main-about

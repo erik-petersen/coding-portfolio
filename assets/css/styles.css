@@ -50,7 +50,8 @@ header .main-nav, header h2, header footer {
     margin-right: 1.75em; }
   header .main-nav li, header h2 li, header footer li {
     display: inline-block;
-    padding: 0 .5em 0 .5em;
+    box-sizing: border-box;
+    padding: 0 .75em 0 .75em;
     margin: 0 .75em 0 .75em;
     cursor: pointer;
     text-align: center;
@@ -79,6 +80,23 @@ header .main-nav, header h2, header footer {
   header .main-nav a, header h2 a, header footer a {
     text-decoration: none;
     color: #262E30; }
+    header .main-nav a .nav-class1, header h2 a .nav-class1, header footer a .nav-class1 {
+      color: #598CAE; }
+    header .main-nav a .nav-class2, header h2 a .nav-class2, header footer a .nav-class2 {
+      color: #598CAE; }
+    header .main-nav a .nav-class3, header h2 a .nav-class3, header footer a .nav-class3 {
+      color: #598CAE; }
+    header .main-nav a:hover, header h2 a:hover, header footer a:hover {
+      padding-bottom: .35em;
+      border-bottom: 0.15em solid #598CAE;
+      color: #598CAE; }
+    header .main-nav a:active, header h2 a:active, header footer a:active {
+      color: #598CAE; }
+    header .main-nav a .nav-unclicked, header h2 a .nav-unclicked, header footer a .nav-unclicked {
+      color: #262E30;
+      text-decoration: none; }
+    header .main-nav a .nav-clicked, header h2 a .nav-clicked, header footer a .nav-clicked {
+      color: #598CAE; }
 
 footer {
   text-align: center;
@@ -100,12 +118,20 @@ footer {
 .main-about .line {
   content: "";
   height: .5em;
-  background-color: #598CAE; }
+  background-color: #598CAE;
+  position: relative;
+  top: 5.85em; }
 .main-about .erik-headshot {
   width: 12em;
   border-radius: 50%;
   position: relative;
   left: 42%; }
+.main-about .about-me-text {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1.35em;
+  line-height: 2em;
+  color: #394144;
+  margin: 2em 3.35em 0 3.35em; }
 
 .main-portfolio h2 {
   text-align: center;
