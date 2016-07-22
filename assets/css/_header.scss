@@ -18,21 +18,21 @@ header {
     }
 
     .fa-bars {
-      font-size: 3.75em;
+      font-size: 4.5em;
       color: $color-charcoal;
       margin: .75em 0 0 .75em;
       cursor: pointer;
     }
 
     .greeting {
-      @include span( 8 of 12 );
+      @include span( 10 of 12 );
       font-family: $sans-serif-stack;
-      font-size: 2em;
+      font-size: 3em;
       line-height: 1.5em;
       color: $color-green;
       text-align: center;
-      margin: 1.25em 0 0 16%;
-      padding-bottom: 2em;
+      margin: 2.5em 0 0 7.5%;
+      padding-bottom: 2.75em;
 
       a {
         color: $color-myName;
