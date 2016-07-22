@@ -30,9 +30,11 @@ $susy: (
       .main-background-mobile {
         display: block;
         width: 100%;
-        height: 45em;
-        padding-top: -2em;
-        margin-bottom: 15em;
+        height: 55em;
+        position: absolute;
+        bottom: 0;
+        // padding-top: -2em;
+        // margin-bottom: 15em;
       }
 
       .main-background {
