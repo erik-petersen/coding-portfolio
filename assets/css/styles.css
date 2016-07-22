@@ -45,10 +45,16 @@ header {
       line-height: 1.5em;
       color: #C9C39B;
       text-align: center;
-      margin: .25em 0 0 4.5%; }
-      header .greeting a {
-        color: #598CAE;
-        text-decoration: none; }
+      margin: 1.25em 0 0 7.5%; }
+    header .header-email {
+      width: 66.10169%;
+      float: left;
+      margin-right: 1.69492%;
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-size: 3.35em;
+      color: #598CAE;
+      text-decoration: none;
+      margin: .25em 0 0 7%; }
     header .my-name-heading {
       font-family: "Special Elite", cursive;
       font-size: 6.5em;

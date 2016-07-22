@@ -31,12 +31,16 @@ header {
       line-height: 1.5em;
       color: $color-green;
       text-align: center;
-      margin: .25em 0 0 4.5%;
+      margin: 1.25em 0 0 7.5%;
+    }
 
-      a {
-        color: $color-myName;
-        text-decoration: none;
-      }
+    .header-email {
+      @include span( 8 of 12 );
+      font-family: $sans-serif-stack;
+      font-size: 3.35em;
+      color: $color-myName;
+      text-decoration: none;
+      margin: .25em 0 0 7%;
     }
 
     .my-name-heading {
