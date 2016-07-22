@@ -18,135 +18,153 @@ main {
     width: 100%;
     height: 18em; }
 
-@media screen and (min-width: 16em) {
-  header .header-background {
-    width: 100%;
-    height: 20em;
-    margin: 2.5em 0 1.5em 0; }
-  header .fa-bars {
-    font-size: 1.75em;
-    color: #394144;
-    margin: .75em 0 0 .75em;
-    cursor: pointer; }
-  header .job-title {
-    font-size: 1.5em;
-    text-align: center;
-    margin: .75em 0 -2.15em 0; }
-  header h1 {
-    font-family: "Special Elite", cursive;
-    font-size: 2.15em;
-    color: #598CAE;
-    text-align: center;
-    margin-top: 1em; }
-    header h1 a {
-      text-decoration: none;
-      color: #598CAE; }
-  header h2 {
-    text-align: center;
-    font-size: 1.5em;
-    color: #C9C39B;
-    padding-bottom: 2em; }
-  header .main-nav, header footer {
-    width: 100%;
-    padding: 1.75em 0 0 0;
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-size: 1.35em;
-    font-weight: 500;
-    color: #262E30; }
-    header .main-nav .nav-list, header footer .nav-list {
-      display: none;
-      list-style: none;
-      text-align: right;
-      margin-right: 1.75em; }
-    header .main-nav li, header footer li {
-      box-sizing: border-box;
-      padding: 0 .75em 0 .75em;
-      margin: 0 .75em 0 .75em;
-      cursor: pointer;
+header {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+  header:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  @media screen and (min-width: 16em) {
+    header .header-background {
+      width: 100%;
+      height: 20em;
+      margin: 2.5em 0 1.5em 0; }
+    header .fa-bars {
+      font-size: 3.75em;
+      color: #394144;
+      margin: .75em 0 0 .75em;
+      cursor: pointer; }
+    header .greeting {
+      width: 66.10169%;
+      float: left;
+      margin-right: 1.69492%;
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-size: 2em;
+      line-height: 1.5em;
+      color: #C9C39B;
       text-align: center;
-      letter-spacing: .1em; }
-    header .main-nav li:last-child, header footer li:last-child {
-      margin-right: 3em; }
-    header .main-nav a, header footer a {
-      text-decoration: none;
-      color: #262E30; }
-      header .main-nav a .nav-class1, header footer a .nav-class1 {
-        color: #598CAE; }
-      header .main-nav a .nav-class2, header footer a .nav-class2 {
-        color: #598CAE; }
-      header .main-nav a .nav-class3, header footer a .nav-class3 {
-        color: #598CAE; }
-      header .main-nav a:hover, header footer a:hover {
-        padding-bottom: .35em;
-        border-bottom: 0.15em solid #598CAE;
-        color: #598CAE; }
-      header .main-nav a:active, header footer a:active {
-        color: #598CAE; }
-      header .main-nav a .nav-unclicked, header footer a .nav-unclicked {
-        color: #262E30;
+      margin: 1.25em 0 0 16%;
+      padding-bottom: 2em; }
+      header .greeting a {
+        color: #598CAE;
         text-decoration: none; }
-      header .main-nav a .nav-clicked, header footer a .nav-clicked {
-        color: #598CAE; } }
-@media screen and (min-width: 31.5em) {
-  header .header-background {
-    width: 100%;
-    height: 20em;
-    margin: 2.5em 0 2.5em 0; }
-  header h1 {
-    font-family: "Special Elite", cursive;
-    font-size: 2.15em;
-    color: #598CAE;
-    text-align: center; }
-    header h1 a {
-      text-decoration: none;
-      color: #598CAE; }
-  header h2 {
-    text-align: center;
-    font-size: 1.5em;
-    color: #C9C39B;
-    padding-bottom: 2em; }
-  header .main-nav, header footer {
-    width: 100%;
-    padding: 1.75em 0 1em 0;
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-size: 1.35em;
-    font-weight: 500;
-    color: #262E30; }
-    header .main-nav .fa-bars, header footer .fa-bars {
-      display: none; }
-    header .main-nav .nav-list, header footer .nav-list {
-      list-style: none;
-      text-align: right;
-      margin-right: 1.75em; }
-    header .main-nav li, header footer li {
-      box-sizing: border-box;
-      padding: 0 .75em 0 .75em;
-      margin: 0 .75em 0 .75em;
-      cursor: pointer;
+    header .my-name-heading {
+      font-family: "Special Elite", cursive;
+      font-size: 5.75em;
+      color: #598CAE;
       text-align: center;
-      letter-spacing: .1em; }
-    header .main-nav li:last-child, header footer li:last-child {
-      margin-right: 3em; }
-    header .main-nav a, header footer a {
-      text-decoration: none;
+      margin-top: 1em; }
+      header .my-name-heading a {
+        text-decoration: none;
+        color: #598CAE; }
+    header h2 {
+      text-align: center;
+      font-size: 1.5em;
+      color: #C9C39B;
+      padding-bottom: 2em; }
+    header .main-nav, header footer {
+      width: 100%;
+      padding: 1.75em 0 0 0;
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-size: 1.35em;
+      font-weight: 500;
       color: #262E30; }
-      header .main-nav a .nav-class1, header footer a .nav-class1 {
+      header .main-nav .nav-list, header footer .nav-list {
+        display: none;
+        list-style: none;
+        text-align: right;
+        margin-right: 1.75em; }
+      header .main-nav li, header footer li {
+        box-sizing: border-box;
+        padding: 0 .75em 0 .75em;
+        margin: 0 .75em 0 .75em;
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: .1em; }
+      header .main-nav li:last-child, header footer li:last-child {
+        margin-right: 3em; }
+      header .main-nav a, header footer a {
+        text-decoration: none;
+        color: #262E30; }
+        header .main-nav a .nav-class1, header footer a .nav-class1 {
+          color: #598CAE; }
+        header .main-nav a .nav-class2, header footer a .nav-class2 {
+          color: #598CAE; }
+        header .main-nav a .nav-class3, header footer a .nav-class3 {
+          color: #598CAE; }
+        header .main-nav a:hover, header footer a:hover {
+          padding-bottom: .35em;
+          border-bottom: 0.15em solid #598CAE;
+          color: #598CAE; }
+        header .main-nav a:active, header footer a:active {
+          color: #598CAE; }
+        header .main-nav a .nav-unclicked, header footer a .nav-unclicked {
+          color: #262E30;
+          text-decoration: none; }
+        header .main-nav a .nav-clicked, header footer a .nav-clicked {
+          color: #598CAE; } }
+  @media screen and (min-width: 31.5em) {
+    header .header-background {
+      width: 100%;
+      height: 20em;
+      margin: 2.5em 0 2.5em 0; }
+    header h1 {
+      font-family: "Special Elite", cursive;
+      font-size: 2.15em;
+      color: #598CAE;
+      text-align: center; }
+      header h1 a {
+        text-decoration: none;
         color: #598CAE; }
-      header .main-nav a .nav-class2, header footer a .nav-class2 {
-        color: #598CAE; }
-      header .main-nav a .nav-class3, header footer a .nav-class3 {
-        color: #598CAE; }
-      header .main-nav a:hover, header footer a:hover {
-        padding-bottom: .35em;
-        border-bottom: 0.15em solid #598CAE;
-        color: #598CAE; }
-      header .main-nav a:active, header footer a:active {
-        color: #598CAE; }
-      header .main-nav a .nav-unclicked, header footer a .nav-unclicked {
-        color: #262E30;
-        text-decoration: none; }
-      header .main-nav a .nav-clicked, header footer a .nav-clicked {
-        color: #598CAE; } }
+    header h2 {
+      text-align: center;
+      font-size: 1.5em;
+      color: #C9C39B;
+      padding-bottom: 2em; }
+    header .main-nav, header footer {
+      width: 100%;
+      padding: 1.75em 0 1em 0;
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-size: 1.35em;
+      font-weight: 500;
+      color: #262E30; }
+      header .main-nav .fa-bars, header footer .fa-bars {
+        display: none; }
+      header .main-nav .nav-list, header footer .nav-list {
+        list-style: none;
+        text-align: right;
+        margin-right: 1.75em; }
+      header .main-nav li, header footer li {
+        box-sizing: border-box;
+        padding: 0 .75em 0 .75em;
+        margin: 0 .75em 0 .75em;
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: .1em; }
+      header .main-nav li:last-child, header footer li:last-child {
+        margin-right: 3em; }
+      header .main-nav a, header footer a {
+        text-decoration: none;
+        color: #262E30; }
+        header .main-nav a .nav-class1, header footer a .nav-class1 {
+          color: #598CAE; }
+        header .main-nav a .nav-class2, header footer a .nav-class2 {
+          color: #598CAE; }
+        header .main-nav a .nav-class3, header footer a .nav-class3 {
+          color: #598CAE; }
+        header .main-nav a:hover, header footer a:hover {
+          padding-bottom: .35em;
+          border-bottom: 0.15em solid #598CAE;
+          color: #598CAE; }
+        header .main-nav a:active, header footer a:active {
+          color: #598CAE; }
+        header .main-nav a .nav-unclicked, header footer a .nav-unclicked {
+          color: #262E30;
+          text-decoration: none; }
+        header .main-nav a .nav-clicked, header footer a .nav-clicked {
+          color: #598CAE; } }
 
 footer {
   text-align: center;

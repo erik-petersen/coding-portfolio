@@ -1,4 +1,13 @@
+@import "../../bower_components/susy/sass/susy";
+
+$susy: (
+  columns: 12,
+  container: 95%
+);
+
 header {
+
+  @include container;
 
   @media screen and ( min-width: 16em ) {
 
@@ -9,21 +18,31 @@ header {
     }
 
     .fa-bars {
-      font-size: 1.75em;
+      font-size: 3.75em;
       color: $color-charcoal;
       margin: .75em 0 0 .75em;
       cursor: pointer;
     }
 
-    .job-title {
-      font-size: 1.5em;
+    .greeting {
+      @include span( 8 of 12 );
+      font-family: $sans-serif-stack;
+      font-size: 2em;
+      line-height: 1.5em;
+      color: $color-green;
       text-align: center;
-      margin: .75em 0 -2.15em 0;
+      margin: 1.25em 0 0 16%;
+      padding-bottom: 2em;
+
+      a {
+        color: $color-myName;
+        text-decoration: none;
+      }
     }
 
-    h1 {
+    .my-name-heading {
       font-family: "Special Elite", cursive;
-      font-size: 2.15em;
+      font-size: 5.75em;
       color: $color-myName;
       text-align: center;
       margin-top: 1em;
