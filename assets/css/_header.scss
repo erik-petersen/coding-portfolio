@@ -1,120 +1,218 @@
 header {
 
-  .header-background {
-    width: 100%;
-    height: 20em;
-    margin: 2.5em 0 2.5em 0;
-  }
+  @media screen and ( min-width: 20em ) and ( max-width: 28.5em ) {
 
-  h1 {
-    font-family: "Special Elite", cursive;
-    font-size: 2.15em;
-    color: $color-myName;
-    position: absolute;
-    top: .75em;
-    left: 2em;
-
-    a {
-      text-decoration: none;
-      color: $color-myName;
-    }
-  }
-
-  h2 {
-    text-align: center;
-    @extend .main-nav;
-    font-size: 1.5em;
-    color: $color-green;
-    padding-bottom: 2em;
-  }
-
-  .main-nav {
-    width: 100%;
-    padding: 1.75em 0 1em 0;
-    font-family: $sans-serif-stack;
-    font-size: 1.25em;
-    font-weight: 500;
-    color: $color-nav;
-    .nav-list {
-      list-style: none;
-      text-align: right;
-      margin-right: 1.75em;
+    .header-background {
+      width: 100%;
+      height: 20em;
+      margin: 2.5em 0 1.5em 0;
     }
 
-    li {
-      display: inline-block;
-      box-sizing: border-box;
-      padding: 0 .75em 0 .75em;
-      margin: 0 .75em 0 .75em;
+    .fa-bars {
+      font-size: 1.75em;
+      color: $color-charcoal;
+      margin: .75em 0 0 .75em;
       cursor: pointer;
+    }
+
+    .job-title {
+      font-size: 1.5em;
       text-align: center;
-      letter-spacing: .1em;
+      margin: .75em 0 -2.15em 0;
     }
 
-    .rolling-pin-pic1,
-    .rolling-pin-pic2,
-    .rolling-pin-pic3,
-    .rolling-pin-pic4 {
-      width: 6em;
-      position: absolute;
-      top: 2.75em;
-      // left: 25%;
+    h1 {
+      font-family: "Special Elite", cursive;
+      font-size: 2.15em;
+      color: $color-myName;
+      text-align: center;
+      margin-top: 1em;
+
+      a {
+        text-decoration: none;
+        color: $color-myName;
+      }
+    } // end h1
+
+    h2 {
+      text-align: center;
+      // @extend .main-nav;
+      font-size: 1.5em;
+      color: $color-green;
+      padding-bottom: 2em;
     }
 
-    .rolling-pin-pic1 {
-      right: 17.45em;
-    }
-
-    .rolling-pin-pic2 {
-      right: 10.75em;
-    }
-
-    // .rolling-pin-pic3 {
-    //   right: 8.5em;
-    // }
-
-    .rolling-pin-pic4 {
-      right: 4.25em;
-    }
-
-    li:last-child {
-      margin-right: 3em;
-    }
-
-    a {
-      text-decoration: none;
+    .main-nav {
+      width: 100%;
+      padding: 1.75em 0 0 0;
+      font-family: $sans-serif-stack;
+      font-size: 1.35em;
+      font-weight: 500;
       color: $color-nav;
 
-      .nav-class1 {
-        color: $color-myName;
+      .fa-bars {
+        display: none;
       }
 
-      .nav-class2 {
-        color: $color-myName;
+      .nav-list {
+        display: none;
+        list-style: none;
+        text-align: right;
+        margin-right: 1.75em;
       }
 
-      .nav-class3 {
-        color: $color-myName;
+      li {
+        box-sizing: border-box;
+        padding: 0 .75em 0 .75em;
+        margin: 0 .75em 0 .75em;
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: .1em;
       }
 
-      &:hover {
-        padding-bottom: .35em;
-        border-bottom: .15em solid $color-myName;
-        color: $color-myName;
+      li:last-child {
+        margin-right: 3em;
       }
 
-      &:active {
-        color: $color-myName;
-      }
+      a {
 
-      .nav-unclicked {
-        color: $color-nav;
         text-decoration: none;
-      }
+        color: $color-nav;
 
-      .nav-clicked {
+        .nav-class1 {
+          color: $color-myName;
+        }
+
+        .nav-class2 {
+          color: $color-myName;
+        }
+
+        .nav-class3 {
+          color: $color-myName;
+        }
+
+        &:hover {
+          padding-bottom: .35em;
+          border-bottom: .15em solid $color-myName;
+          color: $color-myName;
+        }
+
+        &:active {
+          color: $color-myName;
+        }
+
+        .nav-unclicked {
+          color: $color-nav;
+          text-decoration: none;
+        }
+
+        .nav-clicked {
+          color: $color-myName;
+        }
+      } // end .main-nav a
+    } // end .main-nav
+  } // end @media min-width: 48em
+
+@media screen and ( min-width: 28.5em ) and ( max-width: 35.5em ) {
+
+    .header-background {
+      width: 100%;
+      height: 20em;
+      margin: 2.5em 0 2.5em 0;
+    }
+
+    .fa-bars {
+      display: none;
+    }
+
+    h1 {
+      font-family: "Special Elite", cursive;
+      font-size: 2.15em;
+      color: $color-myName;
+      text-align: center;
+
+      a {
+        text-decoration: none;
         color: $color-myName;
       }
+    } // end h1
+
+    h2 {
+      text-align: center;
+      // @extend .main-nav;
+      font-size: 1.5em;
+      color: $color-green;
+      padding-bottom: 2em;
     }
-  } // end .main-nav
+
+    .main-nav {
+      width: 100%;
+      padding: 1.75em 0 1em 0;
+      font-family: $sans-serif-stack;
+      font-size: 1.35em;
+      font-weight: 500;
+      color: $color-nav;
+
+      .fa-bars {
+        display: none;
+      }
+
+      .nav-list {
+        list-style: none;
+        text-align: right;
+        margin-right: 1.75em;
+      }
+
+      li {
+        // display: inline-block;
+        box-sizing: border-box;
+        padding: 0 .75em 0 .75em;
+        margin: 0 .75em 0 .75em;
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: .1em;
+      }
+
+      li:last-child {
+        margin-right: 3em;
+      }
+
+      a {
+
+        text-decoration: none;
+        color: $color-nav;
+
+        .nav-class1 {
+          color: $color-myName;
+        }
+
+        .nav-class2 {
+          color: $color-myName;
+        }
+
+        .nav-class3 {
+          color: $color-myName;
+        }
+
+        &:hover {
+          padding-bottom: .35em;
+          border-bottom: .15em solid $color-myName;
+          color: $color-myName;
+        }
+
+        &:active {
+          color: $color-myName;
+        }
+
+        .nav-unclicked {
+          color: $color-nav;
+          text-decoration: none;
+        }
+
+        .nav-clicked {
+          color: $color-myName;
+        }
+      } // end .main-nav a
+    } // end .main-nav
+  } // end @media min-width 80em
 } // end header

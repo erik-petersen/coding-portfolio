@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
-  <body ng-app="myApp">
+  <body ng-app="myApp" ng-controller="HeaderController">
     <header>
+      <span class="fa fa-bars" aria-hidden="true"></span>
       <h1><a href="#/home">erik petersen</a></h1>
+      <h2 class="job-title">web developer</h2>
       <nav class="main-nav">
         <ul class="nav-list">
           <li><a class="nav-item" data-clicked="no" href="#/portfolio"><span>Portfolio</span></a></li>
@@ -41,6 +43,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-resource.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/HeaderController.js"></script>
     <script src="assets/js/scripts.js"></script>
   </body>
 </html>

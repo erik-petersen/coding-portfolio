@@ -1,14 +1,58 @@
-.main-home {
-  // .main-background {
-  //   width: 1440px;
-  //   height: 738px;
-  //   margin-bottom: 15em;
-  // }
+@import "../../bower_components/susy/sass/susy";
 
-  .main-background {
-    width: 100%;
-    height: 738px;
-    padding-top: .65em;
-    margin-bottom: 15em;
+$susy: (
+  columns: 12,
+  container: 95%
+);
+
+@media screen and ( min-width: 20em ) and ( max-width: 31.5em ) {
+
+  .main-home {
+
+    .main-background-mobile {
+      display: block;
+      width: 100%;
+      height: 27em;
+      padding-top: -2em;
+      margin-bottom: 15em;
+    }
+
+    .main-background {
+      display: none;
+    }
   }
-}
+} // end media min-width 20em and max-width 23.5em
+
+@media screen and ( min-width: 31.5em ) and ( max-width: 35.5em ) {
+  .main-home {
+
+    .main-background-mobile {
+      display: block;
+      width: 100%;
+      height: 36em;
+      padding-top: -2em;
+      margin-bottom: 15em;
+    }
+
+    .main-background {
+      display: none;
+    }
+  }
+} // end media min-width 23.5em and max-width 35.5em
+
+@media screen and ( min-width: 35.5em ) and ( max-width: 50.5em ) {
+  .main-home {
+
+    .main-background-mobile {
+      display: none;
+    }
+
+    .main-background {
+      display: block;
+      width: 100%;
+      height: 38.125em;
+      padding-top: .65em;
+      margin-bottom: 15em;
+    }
+  }
+} // end media min-width 23.5em and max-width 35.5em
