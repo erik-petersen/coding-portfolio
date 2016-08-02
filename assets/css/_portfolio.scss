@@ -2,6 +2,13 @@
 
 .main-portfolio {
 
+  z-index: 0;
+
+  a {
+    text-decoration: none;
+    color: $color-myName;
+  }
+
   $susy: (
     columns: 12,
     container: 95%
@@ -18,8 +25,9 @@
   .teaser-container {
     @include container;
     box-sizing: border-box;
-    height: 130em;
-    margin-top: .65em;
+    height: 205em;
+    margin-top: 5.5em;
+    padding: 3em 0 0 2.75em;
     background-color: $color-nav;
 
     img {
@@ -30,10 +38,6 @@
 
   aside {
     @include span( 3 of 12 );
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    left: 4.5%;
     // background: orange;
 
     .tech-heading {
@@ -43,6 +47,7 @@
 
     .tech {
       margin: 8% 20% 0 20%;
+      width: 10em;
       font-family: $sans-serif-stack;
       font-size: 1.25em;
       color: #fff;
@@ -53,24 +58,31 @@
   img,
   h3 {
     @include span( 7 of 12 );
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    right: 3%;
-    margin-left: 30%;
+    margin-left: 5.5em;
     // background: yellow;
   }
 
-  h3 {
+  img {
+    margin-bottom: 7em;
+  }
+
+  h3,
+  h4 {
     text-align: center;
   }
 
   .tech-heading,
+  .live-demo,
   h3 {
     font-family: $sans-serif-stack;
     font-size: 1.5em;
     font-weight: 500;
     color: $color-myName;
+  }
+
+  .live-demo {
+    @include span( 7 of 12 );
+    margin: 1em 0 0 5.5em;
   }
 
   .iron-pet,
