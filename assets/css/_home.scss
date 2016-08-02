@@ -27,8 +27,28 @@ $susy: (
 .main-home {
   @media screen and ( min-width: 18em ) {
 
+    .greeting {
+      @include span( 10 of 12 );
+      font-family: $sans-serif-stack;
+      font-size: 3.35em;
+      line-height: 1.5em;
+      color: $color-green;
+      text-align: center;
+      margin: 1.25em 0 0 7.5%;
+    }
+
+    .header-email {
+      @include span( 8 of 12 );
+      font-family: $sans-serif-stack;
+      font-size: 3.35em;
+      color: $color-myName;
+      text-decoration: none;
+      margin: .25em 0 0 7%;
+    }
+
+
       .main-background-mobile {
-        z-index: -1;
+        z-index: 1;
         display: block;
         width: 100%;
         height: 55em;

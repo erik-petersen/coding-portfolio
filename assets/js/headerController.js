@@ -5,4 +5,8 @@ myApp.controller( "HeaderController", [ "$scope", function( $scope ) {
     $( ".main-nav" ).slideToggle();
   }); // end .fa-bars click event
 
+  $( ".nav-item" ).click( function() {
+    $( ".main-nav" ).slideToggle();
+  }); // end .nav-item click event
+
 }]); // end HeaderController

@@ -24,25 +24,6 @@ header {
       cursor: pointer;
     }
 
-    .greeting {
-      @include span( 10 of 12 );
-      font-family: $sans-serif-stack;
-      font-size: 3.35em;
-      line-height: 1.5em;
-      color: $color-green;
-      text-align: center;
-      margin: 1.25em 0 0 7.5%;
-    }
-
-    .header-email {
-      @include span( 8 of 12 );
-      font-family: $sans-serif-stack;
-      font-size: 3.35em;
-      color: $color-myName;
-      text-decoration: none;
-      margin: .25em 0 0 7%;
-    }
-
     .my-name-heading {
       font-family: "Special Elite", cursive;
       font-size: 6.5em;
@@ -67,18 +48,19 @@ header {
     .main-nav {
       display: none;
       width: 100%;
-      position: absolute;
       padding: 1.75em 0 0 0;
       font-family: $sans-serif-stack;
       font-size: 1.35em;
-      font-weight: 500;
+      font-weight: 400;
+      text-align: left;
       color: $color-nav;
 
       .nav-list {
         width: 100%;
-        height: 100%;
+        height: 25%;
         background-color: $color-green;
-        font-size: 2em;
+        font-size: 4.5em;
+        line-height: 1.5em;
         list-style: none;
         text-align: left;
         margin-right: 1.75em;
@@ -89,12 +71,9 @@ header {
         padding: 0 .75em 0 .75em;
         margin: 0 .75em 0 .75em;
         cursor: pointer;
-        text-align: center;
+        text-align: left;
         letter-spacing: .1em;
-      }
-
-      li:last-child {
-        margin-right: 3em;
+        color: #fff;
       }
 
       a {
@@ -125,7 +104,7 @@ header {
         }
 
         .nav-unclicked {
-          color: $color-nav;
+          color: #fff;
           text-decoration: none;
         }
 
@@ -169,7 +148,7 @@ header {
       padding: 1.75em 0 1em 0;
       font-family: $sans-serif-stack;
       font-size: 1.35em;
-      font-weight: 500;
+      font-weight: 400;
       color: $color-nav;
 
       .nav-list {
@@ -184,8 +163,9 @@ header {
         padding: 0 .75em 0 .75em;
         margin: 0 .75em 0 .75em;
         cursor: pointer;
-        text-align: center;
+        text-align: left;
         letter-spacing: .1em;
+        color: #fff;
       }
 
       li:last-child {
@@ -195,7 +175,7 @@ header {
       a {
 
         text-decoration: none;
-        color: $color-nav;
+        color: #fff;
 
         .nav-class1 {
           color: $color-myName;

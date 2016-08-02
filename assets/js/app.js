@@ -14,6 +14,9 @@ myApp.config( function( $routeProvider ) {
   .when( "/blog", {
     templateUrl: "pages/blog.html"
   })
+  .when( "/contact", {
+    templateUrl: "pages/contact.html"
+  })
   .otherwise({
     redirectTo: "/home"
   });
