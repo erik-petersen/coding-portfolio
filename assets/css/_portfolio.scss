@@ -31,7 +31,7 @@
     background-color: $color-nav;
 
     img {
-      height: 30em;
+      height: 28.5em;
       margin-top: 4%;
     }
   }
@@ -49,7 +49,7 @@
       margin: 8% 20% 0 20%;
       width: 10em;
       font-family: $sans-serif-stack;
-      font-size: 1.25em;
+      font-size: 2.75em;
       color: #fff;
       line-height: 1.75em;
     }
@@ -57,13 +57,32 @@
 
   img,
   h3 {
-    @include span( 7 of 12 );
-    margin-left: 5.5em;
+    @include span( 6 of 12 );
+    position: relative;
+    left: 2.75em;
     // background: yellow;
   }
 
+  h3 {
+    // margin-left: -.0015em;
+  }
+
   img {
-    margin-bottom: 7em;
+    left: 9.5em;
+  }
+
+  .homeshare img {
+    margin-bottom: 25em;
+  }
+
+  .etsy img {
+    margin-bottom: 10.5em;
+  }
+
+  .chess img {
+    top: 1.5em;
+    left: 9.25em;
+    margin-bottom: 12em;
   }
 
   h3,
@@ -75,14 +94,16 @@
   .live-demo,
   h3 {
     font-family: $sans-serif-stack;
-    font-size: 1.5em;
+    font-size: 3.5em;
     font-weight: 500;
     color: $color-myName;
   }
 
   .live-demo {
     @include span( 7 of 12 );
-    margin: 1em 0 0 5.5em;
+    position: relative;
+    top: .5em;
+    left: 2em;
   }
 
   .iron-pet,
