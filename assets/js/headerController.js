@@ -1,12 +1,8 @@
 myApp.controller( "HeaderController", [ "$scope", function( $scope ) {
 
-  $( ".fa-bars" ).click( function() {
+  jQuery( ".fa-bars" ).click( function() {
     console.log( "Hello" );
-    $( ".main-nav" ).slideToggle();
+    jQuery( ".main-nav" ).slideToggle( 150 );
   }); // end .fa-bars click event
-
-  $( ".nav-item" ).click( function() {
-    $( ".main-nav" ).slideToggle();
-  }); // end .nav-item click event
 
 }]); // end HeaderController

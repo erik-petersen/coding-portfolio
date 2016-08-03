@@ -58,6 +58,8 @@ header {
       text-align: left;
       color: #fff;
       z-index: 2;
+      // border: 1px solid transparent;
+      overflow: hidden;
 
       .nav-list {
         width: 100%;
@@ -151,13 +153,13 @@ header {
     .main-nav {
       width: 100%;
       position: fixed;
-      // padding: 1.75em 0 1em 0;
       left: 0;
       font-family: $sans-serif-stack;
       font-size: 1.35em;
       font-weight: 400;
       // color: $color-nav;
       color: #fff;
+      border: 1px solid transparent;
       z-index: 2;
 
       .nav-list {
