@@ -26,6 +26,8 @@ header {
     content: " ";
     display: block;
     clear: both; }
+  header a:visited {
+    color: #fff; }
   @media screen and (min-width: 16em) {
     header .header-background {
       width: 100%;
@@ -58,16 +60,18 @@ header {
       font-size: 1.35em;
       font-weight: 400;
       text-align: left;
-      color: #262E30; }
+      color: #fff;
+      z-index: 2; }
       header .main-nav .nav-list, header footer .nav-list {
         width: 100%;
-        height: 25%;
+        height: 45%;
         background-color: #C9C39B;
         font-size: 4.5em;
         line-height: 1.5em;
         list-style: none;
         text-align: left;
-        margin-right: 1.75em; }
+        margin-right: 1.75em;
+        z-index: 2; }
       header .main-nav li, header footer li {
         box-sizing: border-box;
         padding: 0 .75em 0 .75em;
@@ -78,7 +82,7 @@ header {
         color: #fff; }
       header .main-nav a, header footer a {
         text-decoration: none;
-        color: #262E30; }
+        color: #fff; }
         header .main-nav a .nav-class1, header footer a .nav-class1 {
           color: #598CAE; }
         header .main-nav a .nav-class2, header footer a .nav-class2 {
@@ -95,7 +99,7 @@ header {
           color: #fff;
           text-decoration: none; }
         header .main-nav a .nav-clicked, header footer a .nav-clicked {
-          color: #598CAE; } }
+          color: #fff; } }
   @media screen and (min-width: 31.5em) {
     header .header-background {
       width: 100%;
@@ -116,15 +120,18 @@ header {
       padding-bottom: 2em; }
     header .main-nav, header footer {
       width: 100%;
-      padding: 1.75em 0 1em 0;
+      position: fixed;
+      left: 0;
       font-family: "Roboto", Helvetica, sans-serif;
       font-size: 1.35em;
       font-weight: 400;
-      color: #262E30; }
+      color: #fff;
+      z-index: 2; }
       header .main-nav .nav-list, header footer .nav-list {
         list-style: none;
         text-align: right;
-        margin-right: 1.75em; }
+        margin-right: 1.75em;
+        z-index: 2; }
       header .main-nav li, header footer li {
         box-sizing: border-box;
         padding: 0 .75em 0 .75em;
@@ -188,12 +195,12 @@ footer {
     text-decoration: none;
     margin: .25em 0 0 7%; }
   .main-home .main-background-mobile {
-    z-index: 1;
     display: block;
     width: 100%;
     height: 55em;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    z-index: 0; }
   .main-home .main-background {
     display: none; }
   .main-home .fa-bars {
