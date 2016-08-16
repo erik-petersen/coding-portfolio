@@ -23,13 +23,13 @@
     .about-me-text {
       font-family: $sans-serif-stack;
       font-size: 3.5em;
-      line-height: 4.25em;
+      line-height: 4.75em;
       color: $color-charcoal;
       margin: 3em 1em 0 1.35em;
     }
 
-    p2 {
-      margin-top: -1em;
+    .p2 {
+      margin-top: -2em;
     }
   } // end @media min-width: 48em
 
