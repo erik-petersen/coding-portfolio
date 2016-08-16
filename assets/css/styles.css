@@ -234,9 +234,11 @@ footer {
   .main-about .about-me-text {
     font-family: "Roboto", Helvetica, sans-serif;
     font-size: 3.5em;
-    line-height: 3.5em;
+    line-height: 4.25em;
     color: #394144;
-    margin: 3em 1em 0 1.35em; } }
+    margin: 3em 1em 0 1.35em; }
+  .main-about p2 {
+    margin-top: -1em; } }
 @media screen and (min-width: 80em) and (max-width: 93em) {
   .main-about .line {
     content: "";
