@@ -365,8 +365,36 @@ footer {
   .main-portfolio .memory h3 {
     top: 205%; }
 
-.social-media {
-  height: 8em;
-  padding: 4em 0 0 7em; }
+.main-contact {
+  width: 92%; }
+  .main-contact .line {
+    content: "";
+    height: .5em;
+    background-color: #598CAE;
+    position: relative;
+    top: 10.15em; }
+  .main-contact .erik-headshot {
+    width: 12em;
+    border-radius: 50%;
+    position: relative;
+    top: 4.15em;
+    left: 36.5%; }
+  .main-contact a {
+    text-decoration: none;
+    color: #C9C39B; }
+  .main-contact p {
+    text-align: left;
+    margin: 4em 0 0 2em;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 2.5em;
+    line-height: 2em;
+    color: #394144; }
+  .main-contact .social-media {
+    height: 8em;
+    padding: 4em 0 0 7em; }
+  .main-contact .fa {
+    font-size: 7em;
+    margin-top: 1.25em;
+    padding: .5em 0 .5em 1em; }
 
 /*# sourceMappingURL=styles.css.map */
