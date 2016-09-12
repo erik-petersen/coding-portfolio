@@ -4,7 +4,7 @@
 
   z-index: 0;
 
-  @media screen and ( min-width: 16em ) and ( max-width: 46.5em ) {
+  @media screen and ( min-width: 16em ) {
 
     .teaser-container {
       @include container;
