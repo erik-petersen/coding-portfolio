@@ -4,7 +4,7 @@
 
   z-index: 0;
 
-  @media screen and ( min-width: 16em ) {
+  @media screen and ( min-width: 240px ) {
 
     .teaser-container {
       @include container;
@@ -127,7 +127,7 @@
     }
   } // end min-width 16em
 
-  @media screen and ( min-width: 46.5em ) {
+  @media screen and ( min-width: 780px ) {
 
     .teaser-container {
       @include container;
