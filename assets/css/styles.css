@@ -101,7 +101,7 @@ header {
           text-decoration: none; }
         header .main-nav a .nav-clicked, header footer a .nav-clicked {
           color: #fff; } }
-  @media screen and (min-width: 31.5em) {
+  @media screen and (min-width: 46.5em) {
     header .header-background {
       width: 100%;
       height: 20em;
@@ -164,6 +164,24 @@ header {
           text-decoration: none; }
         header .main-nav a .nav-clicked, header footer a .nav-clicked {
           color: #598CAE; } }
+  @media screen and (min-width: 46.5em) {
+    header .fa-bars {
+      display: none; }
+    header .my-name-heading {
+      font-size: 3.75em;
+      text-align: left;
+      margin: .75em 0 0 1em; }
+    header .main-nav, header footer {
+      display: inline-block;
+      margin-top: -7.37em; }
+      header .main-nav .nav-list, header footer .nav-list {
+        background-color: transparent; }
+        header .main-nav .nav-list li, header footer .nav-list li {
+          font-size: .3em;
+          color: #394144;
+          display: inline-block; }
+        header .main-nav .nav-list a, header footer .nav-list a {
+          color: #394144; } }
 
 footer {
   text-align: center;
@@ -176,7 +194,7 @@ footer {
     height: 3.5em;
     width: 100%; }
 
-@media screen and (min-width: 18em) {
+@media screen and (min-width: 18em) and (max-width: 46.5em) {
   .main-home .greeting {
     width: 83.05085%;
     float: left;
@@ -208,15 +226,19 @@ footer {
   .main-home .fa-bars {
     color: red;
     font-size: 33.5em; } }
-@media screen and (min-width: 50.5em) {
-  .main-home .main-home .main-background-mobile {
+@media screen and (min-width: 46.5em) {
+  .main-home .main-background-mobile {
     display: none; }
-  .main-home .main-home .main-background {
+  .main-home .main-background {
     display: block;
     width: 100%;
-    height: 38.125em;
-    padding-top: .65em;
-    margin-bottom: 15em; } }
+    height: 42.5em;
+    position: absolute;
+    bottom: 0; }
+  .main-home p {
+    display: none; }
+  .main-home .header-email {
+    display: none; } }
 
 @media screen and (min-width: 48em) {
   .main-about .line {
