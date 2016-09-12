@@ -300,7 +300,7 @@ footer {
 
 .main-portfolio {
   z-index: 0; }
-  @media screen and (min-width: 240px) {
+  @media screen and (max-width: 46.5em) {
     .main-portfolio .teaser-container {
       max-width: 95%;
       margin-left: auto;
@@ -387,7 +387,7 @@ footer {
     .main-portfolio .memory img,
     .main-portfolio .memory h3 {
       top: 205%; } }
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 46.5em) {
     .main-portfolio .teaser-container {
       max-width: 95%;
       margin-left: auto;
