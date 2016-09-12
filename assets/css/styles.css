@@ -164,7 +164,7 @@ header {
           text-decoration: none; }
         header .main-nav a .nav-clicked, header footer a .nav-clicked {
           color: #598CAE; } }
-  @media screen and (min-width: 46.5em) {
+  @media screen and (min-width: 64em) {
     header .fa-bars {
       display: none; }
     header .my-name-heading {
