@@ -1,7 +1,7 @@
 myApp.controller( "HeaderController", [ "$scope", function( $scope ) {
 
   // thank you, http://www.coalmarch.com/blog/how-to-execute-javascript-based-on-screen-size-using-jquery, for your help!!!
-  if( $( window ).width() < 744 ) {
+  if( $( window ).width() < 1080 ) {
 
     console.log( "Greater than 744" );
     jQuery( ".fa-bars" ).click( function() {
