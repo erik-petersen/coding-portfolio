@@ -476,14 +476,12 @@ footer {
     .main-portfolio .chess h3 {
       position: relative;
       bottom: 1.75em; }
-    .main-portfolio .chess {
-      margin-top: -7em; }
     .main-portfolio .chess .tech-heading {
       margin-top: .9em; }
     .main-portfolio .chess img {
       margin: -8em 0 0 16.5em; }
     .main-portfolio .chess h3 {
-      margin-left: 1.5em; }
+      margin: -3em 0 0 1.5em; }
     .main-portfolio .memory,
     .main-portfolio .memory aside,
     .main-portfolio .memory .tech,
