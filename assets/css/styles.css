@@ -456,7 +456,7 @@ footer {
       margin: -5.5em 0 0 1.5em; }
     .main-portfolio .etsy img {
       position: relative;
-      bottom: 8.5em;
+      bottom: 6.5em;
       left: 71.45em; }
     .main-portfolio .live-demo {
       width: 57.62712%;
@@ -476,8 +476,6 @@ footer {
     .main-portfolio .chess h3 {
       position: relative;
       bottom: 1.75em; }
-    .main-portfolio .chess {
-      margin-top: -2em; }
     .main-portfolio .chess .tech-heading {
       margin-top: .9em; }
     .main-portfolio .chess img {
