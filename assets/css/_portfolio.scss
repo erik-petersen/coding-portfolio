@@ -247,7 +247,7 @@
     .etsy img {
       position: relative;
       bottom: 8.5em;
-      left: 71.65em;
+      left: 71.45em;
     }
 
     .live-demo {
@@ -269,7 +269,11 @@
     .chess img,
     .chess h3 {
       position: relative;
-      bottom: 2.25em;
+      bottom: 1.75em;
+    }
+
+    .chess {
+      margin-top: -2em;
     }
 
     .chess .tech-heading {
