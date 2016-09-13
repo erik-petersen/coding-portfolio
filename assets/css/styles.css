@@ -234,7 +234,8 @@ footer {
     width: 100%;
     height: 42.5em;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    z-index: 0; }
   .main-home p {
     display: none; }
   .main-home .header-email {
