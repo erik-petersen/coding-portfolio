@@ -408,7 +408,7 @@ footer {
       margin-right: 1.69492%; }
       .main-portfolio aside .tech-heading {
         text-align: center;
-        margin-left: 13%; }
+        margin-left: 14%; }
       .main-portfolio aside .tech {
         margin: 8% 20% 0 40%;
         width: 10em;
@@ -430,10 +430,12 @@ footer {
     .main-portfolio img {
       left: 25.5em;
       width: 28em; }
+    .main-portfolio .homeshare h3 {
+      margin-left: 2em; }
     .main-portfolio .homeshare img {
       margin-bottom: 25em; }
     .main-portfolio .etsy img {
-      margin: 0 0 10.5em -50%; }
+      margin: 0 0 10.5em -40%; }
     .main-portfolio .chess img {
       top: 1.5em;
       left: 9.25em;
