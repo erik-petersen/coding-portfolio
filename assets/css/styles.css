@@ -173,7 +173,7 @@ header {
       margin: .75em 0 0 1em; }
     header .main-nav, header footer {
       display: inline-block;
-      margin-top: -7.37em; }
+      margin: -7.37em 0 0 1.5em; }
       header .main-nav .nav-list, header footer .nav-list {
         background-color: transparent; }
         header .main-nav .nav-list li, header footer .nav-list li {
