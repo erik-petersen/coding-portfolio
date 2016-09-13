@@ -121,8 +121,8 @@ header {
       padding-bottom: 2em; }
     header .main-nav, header footer {
       width: 100%;
-      position: fixed;
-      left: 0;
+      position: relative;
+      left: 2em;
       font-family: "Roboto", Helvetica, sans-serif;
       font-size: 1.35em;
       font-weight: 400;
@@ -265,12 +265,12 @@ footer {
     height: .5em;
     background-color: #598CAE;
     position: relative;
-    top: 9.5em; }
+    top: -3em; }
   .main-about .erik-headshot {
     width: 12em;
     border-radius: 50%;
     position: relative;
-    top: 3.5em;
+    top: -9em;
     left: 41%; }
   .main-about .about-me-text {
     width: 72%;
@@ -278,7 +278,11 @@ footer {
     font-size: 1.75em;
     line-height: 2em;
     color: #394144;
-    margin: 4em 3.35em 0 7.25em; } }
+    margin: 0 3.35em 0 7.25em; }
+  .main-about .p1 {
+    margin-top: -1.75em; }
+  .main-about .p2 {
+    margin-top: 1.25em; } }
 
 .main-portfolio {
   z-index: 0; }
@@ -376,7 +380,7 @@ footer {
       margin-right: auto;
       box-sizing: border-box;
       height: 182em;
-      margin-top: 2em;
+      margin-top: -13.5em;
       padding: 3em 0 0 2.75em;
       background-color: #262E30; }
       .main-portfolio .teaser-container:after {
@@ -518,29 +522,34 @@ footer {
     height: .5em;
     background-color: #598CAE;
     position: relative;
-    top: 9.5em; }
+    top: -3em; }
   .main-contact .erik-headshot {
     width: 12em;
     border-radius: 50%;
     position: relative;
-    top: 3.5em;
+    top: -9em;
     left: 41%; }
   .main-contact a {
     text-decoration: none;
     color: #598CAE; }
   .main-contact p {
-    text-align: left;
-    margin: 4.25em 0 0 1.35em;
+    text-align: center;
+    margin: -1.5em 0 0 6.5em;
+    width: 72%;
     font-family: "Roboto", Helvetica, sans-serif;
-    font-size: 3.5em;
-    line-height: 3.5em;
+    font-size: 1.75em;
+    line-height: 2em;
     color: #394144; }
   .main-contact .social-media {
-    height: 8em;
-    padding: 4em 0 0 7em; }
+    height: 5em;
+    padding: 1em 0 0 9em; }
   .main-contact .fa {
-    font-size: 7em;
-    margin-top: 1em;
-    padding: .5em 0 .5em 1em; } }
+    font-size: 4em;
+    margin-top: .35em;
+    padding: 1em 0 .5em 2.25em; }
+  .main-contact .fa-envelope {
+    margin-left: 5.8em; }
+  .main-contact .fa-phone {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

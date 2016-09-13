@@ -37,7 +37,7 @@
       height: .5em;
       background-color: $color-myName;
       position: relative;
-      top: 9.5em;
+      top: -3em;
 
     }
 
@@ -46,7 +46,7 @@
       border-radius: 50%;
       // margin: 5% 42% 0 42%;
       position: relative;
-      top: 3.5em;
+      top: -9em;
       left: 41%;
     }
 
@@ -56,7 +56,15 @@
       font-size: 1.75em;
       line-height: 2em;
       color: $color-charcoal;
-      margin: 4em 3.35em 0 7.25em;
+      margin: 0 3.35em 0 7.25em;
+    }
+
+    .p1 {
+      margin-top: -1.75em;
+    }
+
+    .p2 {
+      margin-top: 1.25em;
     }
   } // end @media min-width: 64em
 
