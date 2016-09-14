@@ -651,9 +651,9 @@ footer {
     .main-portfolio .memory h3 {
       margin-left: 1.8em; }
     .main-portfolio .memory .tech-heading {
-      margin: .8em 0 0 1.5em; }
+      margin: 3.5em 0 0 1.5em; }
     .main-portfolio .memory img {
-      margin: 5.5em 0 0 3.75em; } }
+      margin: 4.75em 0 0 3.75em; } }
 
 @media screen and (min-width: 17em) {
   .main-contact .line {
