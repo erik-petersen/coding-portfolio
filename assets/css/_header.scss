@@ -282,15 +282,15 @@ header {
 
         background-color: transparent;
 
+        .nav-list:first {
+          margin-left: -2em;
+        }
+
         li {
           font-size: .4em;
           color: $color-charcoal;
           display: inline-block;
           width: 2em;
-        }
-
-        li:first {
-          margin-left: -2em;
         }
 
         a {

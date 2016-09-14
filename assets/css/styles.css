@@ -195,13 +195,13 @@ header {
       margin: -7.37em 0 0 1.5em; }
       header .main-nav .nav-list, header footer .nav-list {
         background-color: transparent; }
+        header .main-nav .nav-list .nav-list:first, header footer .nav-list .nav-list:first {
+          margin-left: -2em; }
         header .main-nav .nav-list li, header footer .nav-list li {
           font-size: .4em;
           color: #394144;
           display: inline-block;
           width: 2em; }
-        header .main-nav .nav-list li:first, header footer .nav-list li:first {
-          margin-left: -2em; }
         header .main-nav .nav-list a, header footer .nav-list a {
           color: #394144; } }
 
