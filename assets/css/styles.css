@@ -647,13 +647,13 @@ footer {
     .main-portfolio .memory .tech,
     .main-portfolio .memory img,
     .main-portfolio .memory h3 {
-      margin-top: .8em; }
+      margin-top: 2.5em; }
     .main-portfolio .memory h3 {
       margin-left: 1.8em; }
     .main-portfolio .memory .tech-heading {
       margin: .8em 0 0 1.5em; }
     .main-portfolio .memory img {
-      margin-top: 4.5em; } }
+      margin: 7.5em 0 0 4em; } }
 
 @media screen and (min-width: 17em) {
   .main-contact .line {
