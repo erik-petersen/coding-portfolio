@@ -196,7 +196,7 @@ header {
       header .main-nav .nav-list, header footer .nav-list {
         background-color: transparent; }
         header .main-nav .nav-list li, header footer .nav-list li {
-          font-size: .6em;
+          font-size: .35em;
           color: #394144;
           display: inline-block;
           padding: 0 -1.5em 0 -1.5em; }
