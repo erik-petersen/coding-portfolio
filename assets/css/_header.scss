@@ -282,10 +282,6 @@ header {
 
         background-color: transparent;
 
-        .nav-list:first {
-          margin-left: -2em;
-        }
-
         li {
           font-size: .4em;
           color: $color-charcoal;
@@ -296,6 +292,10 @@ header {
         a {
           color: $color-charcoal;
         }
+      }
+
+      .nav-list:first-child {
+        margin-left: -2em;
       }
     }
   } // end media query 97em
