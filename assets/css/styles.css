@@ -192,7 +192,7 @@ header {
       margin: 1em 0 0 1em; }
     header .main-nav, header footer {
       display: inline-block;
-      margin: -7.37em 0 0 1.5em; }
+      margin: -7.5em 0 0 1.5em; }
       header .main-nav .nav-list, header footer .nav-list {
         background-color: transparent; }
         header .main-nav .nav-list li, header footer .nav-list li {
@@ -203,7 +203,7 @@ header {
         header .main-nav .nav-list a, header footer .nav-list a {
           color: #394144; }
       header .main-nav .nav-list:first-child, header footer .nav-list:first-child {
-        margin-left: -2em; } }
+        margin-left: -2.5em; } }
 
 footer {
   text-align: center;
