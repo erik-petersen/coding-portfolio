@@ -196,10 +196,10 @@ header {
       header .main-nav .nav-list, header footer .nav-list {
         background-color: transparent; }
         header .main-nav .nav-list li, header footer .nav-list li {
-          font-size: .35em;
+          font-size: .4em;
           color: #394144;
           display: inline-block;
-          padding: 0 -1.5em 0 -1.5em; }
+          padding: 0 -2em 0 -2em; }
         header .main-nav .nav-list a, header footer .nav-list a {
           color: #394144; } }
 
