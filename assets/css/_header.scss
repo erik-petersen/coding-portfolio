@@ -286,7 +286,7 @@ header {
           font-size: .4em;
           color: $color-charcoal;
           display: inline-block;
-          width: 1.5em;
+          width: 1.75em;
         }
 
         a {
@@ -294,7 +294,11 @@ header {
         }
 
         .second-item {
-          margin-right: 1em;
+          margin-right: 2em;
+        }
+
+        .third-item {
+          margin-left: 2em;
         }
       } // end .nav-list
 
