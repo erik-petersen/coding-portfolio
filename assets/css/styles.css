@@ -612,12 +612,12 @@ footer {
       font-weight: 500;
       color: #598CAE; }
     .main-portfolio .etsy-heading {
-      margin: 2.7em 0 0 1.85em;
+      margin: 2.5em 0 0 1.85em;
       z-index: 5; }
     .main-portfolio .etsy img {
       position: relative;
-      bottom: 2.5em;
-      left: 41.45em; }
+      bottom: 3em;
+      left: 21.45em; }
     .main-portfolio .live-demo {
       width: 57.62712%;
       float: left;
