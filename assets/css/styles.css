@@ -187,9 +187,9 @@ header {
     header .fa-bars {
       display: none; }
     header .my-name-heading {
-      font-size: 4em;
+      font-size: 4.5em;
       text-align: left;
-      margin: 1.5em 0 0 1em; }
+      margin: 1.15em 0 0 1em; }
     header .main-nav, header footer {
       display: inline-block;
       margin: -7.37em 0 0 1.5em; }
