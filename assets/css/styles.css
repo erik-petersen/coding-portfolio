@@ -191,7 +191,6 @@ header {
       text-align: left;
       margin: 1em 0 0 1em; }
     header .main-nav, header footer {
-      width: 40%;
       display: inline-block;
       margin: -7.37em 0 0 1.5em; }
       header .main-nav .nav-list, header footer .nav-list {
@@ -199,7 +198,8 @@ header {
         header .main-nav .nav-list li, header footer .nav-list li {
           font-size: .4em;
           color: #394144;
-          display: inline-block; }
+          display: inline-block;
+          width: 2em; }
         header .main-nav .nav-list a, header footer .nav-list a {
           color: #394144; } }
 

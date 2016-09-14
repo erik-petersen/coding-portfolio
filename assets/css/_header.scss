@@ -274,7 +274,7 @@ header {
     }
 
     .main-nav {
-      width: 40%;
+
       display: inline-block;
       margin: -7.37em 0 0 1.5em;
 
@@ -282,11 +282,11 @@ header {
 
         background-color: transparent;
 
-
         li {
           font-size: .4em;
           color: $color-charcoal;
           display: inline-block;
+          width: 2em;
         }
 
         a {
