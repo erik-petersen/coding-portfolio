@@ -616,8 +616,8 @@ footer {
       z-index: 5; }
     .main-portfolio .etsy img {
       position: relative;
-      bottom: -3em;
-      left: 12.5em; }
+      bottom: 10em;
+      left: 13em; }
     .main-portfolio .live-demo {
       width: 57.62712%;
       float: left;
