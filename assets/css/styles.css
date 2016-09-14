@@ -241,6 +241,20 @@ footer {
     display: none; }
   .main-home .header-email {
     display: none; } }
+@media screen and (min-width: 97em) {
+  .main-home .main-background-mobile {
+    display: none; }
+  .main-home .main-background {
+    display: block;
+    width: 100%;
+    height: 41em;
+    position: absolute;
+    bottom: 0;
+    z-index: 0; }
+  .main-home p {
+    display: none; }
+  .main-home .header-email {
+    display: none; } }
 
 @media screen and (min-width: 17em) {
   .main-about .line {
@@ -377,6 +391,124 @@ footer {
     .main-portfolio .memory h3 {
       top: 205%; } }
   @media screen and (min-width: 64em) {
+    .main-portfolio .teaser-container {
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+      height: 182em;
+      margin-top: -11.05em;
+      padding: 3em 0 0 2.75em;
+      background-color: #262E30; }
+      .main-portfolio .teaser-container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+      .main-portfolio .teaser-container a {
+        text-decoration: none;
+        color: #598CAE; }
+      .main-portfolio .teaser-container h2 {
+        text-align: center;
+        font-family: "Roboto", Helvetica, sans-serif;
+        font-size: 1.75em;
+        color: red;
+        padding: 1.5em 0 2.5em 0; }
+      .main-portfolio .teaser-container img {
+        height: 28.5em;
+        margin-top: 4%; }
+    .main-portfolio aside {
+      width: 23.72881%;
+      float: left;
+      margin-right: 1.69492%; }
+      .main-portfolio aside .tech-heading {
+        text-align: center;
+        margin-left: 14%; }
+      .main-portfolio aside .tech {
+        margin: 8% 20% 0 40%;
+        width: 10em;
+        font-family: "Roboto", Helvetica, sans-serif;
+        font-size: 2em;
+        color: #fff;
+        line-height: 1.75em; }
+      .main-portfolio aside .etsy-tech-heading {
+        margin-top: -5.5em; }
+    .main-portfolio img,
+    .main-portfolio h3 {
+      width: 57.62712%;
+      float: left;
+      margin-right: 1.69492%;
+      position: relative;
+      left: 4.25em; }
+    .main-portfolio h3 {
+      margin-left: .65em; }
+    .main-portfolio img {
+      left: 25.5em;
+      width: 28em; }
+    .main-portfolio .homeshare h3 {
+      margin-left: 1.65em; }
+    .main-portfolio .homeshare img {
+      margin-bottom: 25em; }
+    .main-portfolio .etsy img {
+      margin: 0 0 10.5em -55.5%; }
+    .main-portfolio .chess img {
+      top: 1.5em;
+      left: 9.25em;
+      margin-bottom: 12em; }
+    .main-portfolio section {
+      clear: both; }
+    .main-portfolio h3,
+    .main-portfolio h4 {
+      text-align: center; }
+    .main-portfolio .tech-heading,
+    .main-portfolio .live-demo,
+    .main-portfolio h3 {
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-size: 2.75em;
+      font-weight: 500;
+      color: #598CAE; }
+    .main-portfolio .etsy-heading {
+      margin: -5.5em 0 0 1.65em; }
+    .main-portfolio .etsy img {
+      position: relative;
+      bottom: 8.5em;
+      left: 71.45em; }
+    .main-portfolio .live-demo {
+      width: 57.62712%;
+      float: left;
+      margin-right: 1.69492%;
+      position: relative;
+      bottom: 2em;
+      left: 4.95em; }
+    .main-portfolio .live-demo a,
+    .main-portfolio .live-demo {
+      color: #394144; }
+    .main-portfolio .chess,
+    .main-portfolio .chess aside,
+    .main-portfolio .chess .tech-heading,
+    .main-portfolio .chess .tech,
+    .main-portfolio .chess img,
+    .main-portfolio .chess h3 {
+      position: relative;
+      bottom: 1.75em; }
+    .main-portfolio .chess .tech-heading {
+      margin-top: -.9em; }
+    .main-portfolio .chess img {
+      margin: -6.5em 0 0 16.5em; }
+    .main-portfolio .chess h3 {
+      margin: -1.5em 0 0 1.75em; }
+    .main-portfolio .memory,
+    .main-portfolio .memory aside,
+    .main-portfolio .memory .tech,
+    .main-portfolio .memory img,
+    .main-portfolio .memory h3 {
+      margin-top: .8em; }
+    .main-portfolio .memory h3 {
+      margin-left: 1.8em; }
+    .main-portfolio .memory .tech-heading {
+      margin: .8em 0 0 1.5em; }
+    .main-portfolio .memory img {
+      margin-top: 4.5em; } }
+  @media screen and (min-width: 97em) {
     .main-portfolio .teaser-container {
       max-width: 95%;
       margin-left: auto;
