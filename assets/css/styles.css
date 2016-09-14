@@ -576,7 +576,7 @@ footer {
         color: #fff;
         line-height: 1.75em; }
       .main-portfolio aside .etsy-tech-heading {
-        margin-top: -5.5em; }
+        margin-top: 5.5em; }
     .main-portfolio img,
     .main-portfolio h3 {
       width: 57.62712%;
@@ -611,8 +611,6 @@ footer {
       font-size: 2.75em;
       font-weight: 500;
       color: #598CAE; }
-    .main-portfolio .etsy {
-      margin-top: 7em; }
     .main-portfolio .etsy-heading {
       margin: -5.5em 0 0 1.65em; }
     .main-portfolio .etsy img {
