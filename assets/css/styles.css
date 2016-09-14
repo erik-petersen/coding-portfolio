@@ -635,11 +635,11 @@ footer {
     .main-portfolio .chess img,
     .main-portfolio .chess h3 {
       position: relative;
-      bottom: 1.75em; }
+      bottom: 0; }
     .main-portfolio .chess .tech-heading {
       margin-top: -.9em; }
     .main-portfolio .chess img {
-      margin: -6.5em 0 0 21.5em; }
+      margin: -6.5em 0 0 20em; }
     .main-portfolio .chess h3 {
       margin: -1.5em 0 0 1.75em; }
     .main-portfolio .memory,
