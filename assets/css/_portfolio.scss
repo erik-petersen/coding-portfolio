@@ -431,8 +431,8 @@
     .live-demo {
       @include span( 7 of 12 );
       position: relative;
-      bottom: 2em;
-      left: 4.95em;
+      bottom: 1.7em;
+      left: 5.5em;
     }
 
     .live-demo a,
@@ -455,7 +455,7 @@
     }
 
     .chess img {
-      margin: 0 0 0 20em;
+      margin: 2em 0 0 20em;
     }
 
     .chess h3 {
