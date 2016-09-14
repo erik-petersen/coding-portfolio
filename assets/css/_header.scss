@@ -292,7 +292,11 @@ header {
         a {
           color: $color-charcoal;
         }
-      }
+
+        .second-item {
+          padding-right: 1em;
+        }
+      } // end .nav-list
 
       .nav-list:first-child {
         margin-left: -2.5em;
