@@ -200,6 +200,8 @@ header {
           color: #394144;
           display: inline-block;
           width: 2em; }
+        header .main-nav .nav-list li:first, header footer .nav-list li:first {
+          margin-left: -2em; }
         header .main-nav .nav-list a, header footer .nav-list a {
           color: #394144; } }
 

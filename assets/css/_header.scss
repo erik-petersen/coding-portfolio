@@ -289,6 +289,10 @@ header {
           width: 2em;
         }
 
+        li:first {
+          margin-left: -2em;
+        }
+
         a {
           color: $color-charcoal;
         }
