@@ -274,7 +274,7 @@ footer {
   .main-home .main-background {
     display: block;
     width: 100%;
-    height: 46.25em;
+    height: 44.75em;
     position: absolute;
     bottom: 0;
     z-index: 0; }
@@ -346,7 +346,7 @@ footer {
     font-size: 2em;
     line-height: 2em;
     color: #394144;
-    margin: 0 3.35em 0 7.5em; }
+    margin: 0 3.35em 0 8em; }
   .main-about .p1 {
     margin-top: -1.75em; }
   .main-about .p2 {
@@ -567,7 +567,7 @@ footer {
       margin-right: auto;
       box-sizing: border-box;
       height: 182em;
-      margin-top: -16.9em;
+      margin-top: -15.65em;
       padding: 3em 0 0 2.75em;
       background-color: #262E30; }
       .main-portfolio .teaser-container:after {
@@ -617,7 +617,7 @@ footer {
     .main-portfolio .homeshare h3 {
       margin: .1em 0 0 1.75em; }
     .main-portfolio .homeshare img {
-      margin: 3.5em 25em 0 5em; }
+      margin: 3.5em 25em 0 7em; }
     .main-portfolio .etsy img {
       margin: 20em 0 5.5em -45.75%; }
     .main-portfolio .chess img {
@@ -642,14 +642,14 @@ footer {
     .main-portfolio .etsy img {
       position: relative;
       bottom: 6.5em;
-      left: 13em; }
+      left: 15em; }
     .main-portfolio .live-demo {
       width: 57.62712%;
       float: left;
       margin-right: 1.69492%;
       position: relative;
       bottom: 1.5em;
-      left: 6.25em; }
+      left: 5.9em; }
     .main-portfolio .live-demo a,
     .main-portfolio .live-demo {
       color: #394144; }
@@ -664,7 +664,7 @@ footer {
     .main-portfolio .chess .tech-heading {
       margin: -1.8em 0 .5em 0; }
     .main-portfolio .chess img {
-      margin: 3em 0 0 21.5em; }
+      margin: 3em 0 0 23.5em; }
     .main-portfolio .chess h3 {
       margin: -1.5em 0 0 1.75em; }
     .main-portfolio .memory,
@@ -678,7 +678,7 @@ footer {
     .main-portfolio .memory .tech-heading {
       margin: 2.75em 0 -2.65em .5em; }
     .main-portfolio .memory img {
-      margin: 4.75em 0 0 5.25em; } }
+      margin: 4.75em 0 0 7.25em; } }
 
 @media screen and (min-width: 17em) {
   .main-contact .line {
@@ -771,7 +771,7 @@ footer {
     color: #394144; }
   .main-contact .social-media {
     height: 5em;
-    margin: 2.35em 0 0 5em;
+    margin: 2.25em 0 0 6em;
     padding: 1em 0 0 9em; }
   .main-contact .fa {
     font-size: 3.5em;
