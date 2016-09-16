@@ -617,7 +617,7 @@ footer {
     .main-portfolio .homeshare h3 {
       margin: .1em 0 0 1.75em; }
     .main-portfolio .homeshare img {
-      margin: 3.5em 25em 0 7em; }
+      margin: 3.5em 25em 0 8.25em; }
     .main-portfolio .etsy img {
       margin: 20em 0 5.5em -45.75%; }
     .main-portfolio .chess img {
@@ -642,7 +642,7 @@ footer {
     .main-portfolio .etsy img {
       position: relative;
       bottom: 6.5em;
-      left: 15em; }
+      left: 16.25em; }
     .main-portfolio .live-demo {
       width: 57.62712%;
       float: left;
@@ -664,7 +664,7 @@ footer {
     .main-portfolio .chess .tech-heading {
       margin: -1.8em 0 .5em 0; }
     .main-portfolio .chess img {
-      margin: 3em 0 0 23.5em; }
+      margin: 3em 0 0 24.75em; }
     .main-portfolio .chess h3 {
       margin: -1.5em 0 0 1.75em; }
     .main-portfolio .memory,
@@ -678,7 +678,7 @@ footer {
     .main-portfolio .memory .tech-heading {
       margin: 2.75em 0 -2.65em .5em; }
     .main-portfolio .memory img {
-      margin: 4.75em 0 0 7.25em; } }
+      margin: 4.75em 0 0 8.5em; } }
 
 @media screen and (min-width: 17em) {
   .main-contact .line {
