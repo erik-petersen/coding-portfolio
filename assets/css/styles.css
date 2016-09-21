@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Cinzel+Decorative:400,700|Poiret+One);
+.page-header {
+  border: none;
+  margin: 2em 5em 0; }
+
+.navbar-brand {
+  font-family: "Special Elite";
+  color: #598CAE;
+  font-size: 1.5em; }
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #598CAE; }
+
+h1 {
+  color: #598CAE; }
+
+.navbar-nav {
+  font-size: 2.15em;
+  margin-top: .65em; }
+
+.navbar-default {
+  background-color: #fff;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-image: none; }
+
+.navbar-default .navbar-brand {
+  color: #598CAE; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #394144; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #598CAE; }
+
+.home-container a {
+  text-decoration: none;
+  color: #394144; }
+.home-container .container-fluid {
+  padding: 0;
+  background-color: #fff; }
+.home-container .img-home {
+  width: 100%;
+  margin-bottom: 5%; }
+.home-container .row-1,
+.home-container .row-3 {
+  background-color: #598CAE; }
+.home-container .row-2 {
+  background-color: #C9C39B; }
+.home-container .info-container {
+  width: 100%; }
+.home-container .info-container-even {
+  margin-left: 5%; }
+.home-container .portfolio-h1 {
+  color: #394144;
+  margin-bottom: 2.25em; }
+.home-container .thumbnail {
+  margin: 0;
+  margin-right: 12%; }
+.home-container .etsy-thumbnail {
+  margin: 0 0 0 12%;
+  padding-right: 0; }
+.home-container .tech li {
+  font-size: 1.45em;
+  color: #fff;
+  padding-left: 18em; }
+.home-container .etsy-tech li {
+  font-size: 1.45em;
+  color: #fff; }
+.home-container p {
+  font-size: 1.45em;
+  color: #fff;
+  margin-right: 7%; }
+
+.about-container img {
+  width: 17em; }
+.about-container p {
+  margin: 0 5% 0 5%; }
+.about-container .p1 {
+  font-size: 1.75em;
+  margin-top: 11%; }
+.about-container .p2 {
+  font-size: 1.75em;
+  margin-top: 2.5%; }
+
+.contact-container img {
+  width: 17em; }
+.contact-container p {
+  font-size: 1.75em;
+  margin: 11% 0 11% 0; }
+.contact-container .fa {
+  font-size: 3em;
+  padding: 0 1em; }
+
+/*# sourceMappingURL=styles.css.map */

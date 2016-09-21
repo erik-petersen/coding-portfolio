@@ -1,0 +1,67 @@
+.home-container {
+
+  a {
+    text-decoration: none;
+    color: $color-charcoal;
+  }
+
+  .container-fluid {
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .img-home {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .row-1,
+  .row-3 {
+    background-color: $color-myName;
+  }
+
+  .row-2 {
+    background-color: $color-green;
+  }
+
+  .info-container {
+    width: 100%;
+  }
+
+  .info-container-even {
+    margin-left: 5%;
+  }
+
+  .portfolio-h1 {
+    color: $color-charcoal;
+    margin-bottom: 2.25em;
+  }
+
+  .thumbnail {
+    margin: 0;
+    margin-right: 12%;
+  }
+
+  .etsy-thumbnail {
+    margin: 0 0 0 12%;
+    padding-right: 0;
+  }
+
+  .tech li {
+    font-size: 1.45em;
+    color: #fff;
+    padding-left: 18em;
+  }
+
+  .etsy-tech li {
+    font-size: 1.45em;
+    color: #fff;
+  }
+
+  p {
+    font-size: 1.45em;
+    color: #fff;
+    margin-right: 7%;
+  }
+
+}

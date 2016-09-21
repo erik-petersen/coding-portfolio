@@ -1,0 +1,15 @@
+$serif-stack: "Cardo", serif;
+$sans-serif-stack: "Roboto", Helvetica, sans-serif;
+$color-charcoal: #394144;
+$color-nav: #262E30;
+$color-green: #C9C39B;
+$color-myName: #598CAE;
+$font-myName: "Special Elite", sans-serif;
+
+
+@import "header";
+@import "home";
+@import "about";
+@import "contact";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Cinzel+Decorative:400,700|Poiret+One);

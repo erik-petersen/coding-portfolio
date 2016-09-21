@@ -1,0 +1,45 @@
+.page-header {
+  border: none;
+  margin: 2em 5em 0;
+}
+
+.navbar-brand {
+  font-family: "Special Elite";
+  color: #598CAE;
+  font-size: 1.5em;
+}
+
+
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #598CAE;
+}
+
+h1 {
+  color: #598CAE;
+}
+
+.navbar-nav {
+  font-size: 2.15em;
+  margin-top: .65em;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-image: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #598CAE;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $color-charcoal;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: $color-myName;
+}
