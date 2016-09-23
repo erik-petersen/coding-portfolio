@@ -86,6 +86,9 @@ h1 {
   .home-container .thumbnail {
     background-color: #598CAE;
     border: none; }
+  .home-container .row {
+    margin-left: 0;
+    margin-right: 0; }
   .home-container img {
     width: 24em; }
   .home-container .carousel-inner > .item > a > img, .home-container .carousel-inner > .item > img, .home-container .img-responsive, .home-container .thumbnail a > img, .home-container .thumbnail > img {
