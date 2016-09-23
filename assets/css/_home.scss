@@ -71,6 +71,11 @@
 
   @media screen and ( max-width: 555px ) {
 
+    .portfolio-h1 {
+      color: $color-charcoal;
+      margin-bottom: 1.5em;
+    }
+
     .thumbnail {
       background-color: $color-myName;
       border: none;

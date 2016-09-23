@@ -86,6 +86,9 @@ h1 {
   color: #394144;
   margin-right: 7%; }
 @media screen and (max-width: 555px) {
+  .home-container .portfolio-h1 {
+    color: #394144;
+    margin-bottom: 1.5em; }
   .home-container .thumbnail {
     background-color: #598CAE;
     border: none;
