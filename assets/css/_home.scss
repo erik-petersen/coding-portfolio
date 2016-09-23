@@ -1,31 +1,5 @@
 .home-container {
 
-  // @media screen and ( max-width: 555px ) {
-  //
-  //   .thumbnail {
-  //     background-color: $color-myName;
-  //     border: none;
-  //   }
-  //
-  //   img {
-  //     width: 24em;
-  //   }
-  //
-  //   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-  //     display: inline;
-  //   }
-  //
-  //   .info-container {
-  //     padding-left: 2em;
-  //   }
-  //
-  //   .tech li {
-  //     padding-left: 0;
-  //   }
-  //
-  //
-  // }
-
   a {
     text-decoration: none;
     color: $color-charcoal;
@@ -109,6 +83,10 @@
       padding-left: 2em;
     }
 
+    .info-container-even {
+      padding: .5em 0 0 1em;
+    }
+
     .tech li {
       padding-left: 0;
     }
@@ -121,6 +99,10 @@
     .img-thumbnail, .thumbnail {
       -webkit-box-shadow: none;
               box-shadow: none;
+    }
+
+    .img-home {
+      width: 100%;
     }
 
 
