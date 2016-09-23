@@ -73,14 +73,16 @@ h1 {
   padding-right: 0; }
 .home-container .tech li {
   font-size: 1.45em;
-  color: #fff;
+  color: #394144;
   padding-left: 18em; }
 .home-container .etsy-tech li {
   font-size: 1.45em;
-  color: #fff; }
+  color: #394144; }
+.home-container .etsy-p {
+  color: #394144; }
 .home-container p {
   font-size: 1.45em;
-  color: #fff;
+  color: #394144;
   margin-right: 7%; }
 @media screen and (max-width: 555px) {
   .home-container .thumbnail {

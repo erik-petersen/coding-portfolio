@@ -49,18 +49,22 @@
 
   .tech li {
     font-size: 1.45em;
-    color: #fff;
+    color: $color-charcoal;
     padding-left: 18em;
   }
 
   .etsy-tech li {
     font-size: 1.45em;
-    color: #fff;
+    color: $color-charcoal;
+  }
+
+  .etsy-p {
+    color: $color-charcoal;
   }
 
   p {
     font-size: 1.45em;
-    color: #fff;
+    color: $color-charcoal;
     margin-right: 7%;
   }
 
