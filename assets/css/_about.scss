@@ -18,4 +18,15 @@
     margin-top: 2.5%;
   }
 
+  @media screen and ( max-width: 545px ) {
+
+    img {
+      width: 10em;
+    }
+
+    .p2 {
+      margin: 2.5% 0 0 2.5%;
+    }
+  }
+
 } // end .about-container

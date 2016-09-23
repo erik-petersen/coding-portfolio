@@ -121,6 +121,11 @@ h1 {
 .about-container .p2 {
   font-size: 1.75em;
   margin-top: 2.5%; }
+@media screen and (max-width: 545px) {
+  .about-container img {
+    width: 10em; }
+  .about-container .p2 {
+    margin: 2.5% 0 0 2.5%; } }
 
 .contact-container img {
   width: 17em; }
