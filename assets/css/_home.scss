@@ -86,7 +86,7 @@
     }
 
     .info-container {
-      padding-left: 1em;
+      padding-left: 1.2em;
     }
 
     .info-container-even {
@@ -100,6 +100,8 @@
     .etsy-thumbnail {
       background-color: $color-green;
       border: none;
+      padding-left: 0;
+      margin-left: 0;
     }
 
     .img-thumbnail, .thumbnail {
