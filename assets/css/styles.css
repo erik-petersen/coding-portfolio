@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Cinzel+Decorative:400,700|Poiret+One);
+@media screen and (max-width: 575px) {
+  .navbar-brand {
+    line-height: 1.25em;
+    text-align: center;
+    margin-bottom: 1.75em; } }
 .page-header {
   border: none;
   margin: 2em 5em 0; }
@@ -73,6 +78,24 @@ h1 {
   font-size: 1.45em;
   color: #fff;
   margin-right: 7%; }
+@media screen and (max-width: 555px) {
+  .home-container .thumbnail {
+    background-color: #598CAE;
+    border: none; }
+  .home-container img {
+    width: 24em; }
+  .home-container .carousel-inner > .item > a > img, .home-container .carousel-inner > .item > img, .home-container .img-responsive, .home-container .thumbnail a > img, .home-container .thumbnail > img {
+    display: inline; }
+  .home-container .info-container {
+    padding-left: 2em; }
+  .home-container .tech li {
+    padding-left: 0; }
+  .home-container .etsy-thumbnail {
+    background-color: #C9C39B;
+    border: none; }
+  .home-container .img-thumbnail, .home-container .thumbnail {
+    -webkit-box-shadow: none;
+    box-shadow: none; } }
 
 .about-container img {
   width: 17em; }
