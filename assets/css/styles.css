@@ -86,7 +86,7 @@ h1 {
   .home-container .thumbnail {
     background-color: #598CAE;
     border: none;
-    margin-left: .25em; }
+    padding-left: .25em; }
   .home-container .row {
     margin-left: 0;
     margin-right: 0; }
