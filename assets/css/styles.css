@@ -85,7 +85,8 @@ h1 {
 @media screen and (max-width: 555px) {
   .home-container .thumbnail {
     background-color: #598CAE;
-    border: none; }
+    border: none;
+    margin-left: .25em; }
   .home-container .row {
     margin-left: 0;
     margin-right: 0; }
@@ -94,7 +95,7 @@ h1 {
   .home-container .carousel-inner > .item > a > img, .home-container .carousel-inner > .item > img, .home-container .img-responsive, .home-container .thumbnail a > img, .home-container .thumbnail > img {
     display: inline; }
   .home-container .info-container {
-    padding-left: .5em; }
+    padding-left: 1em; }
   .home-container .info-container-even {
     padding: .5em 0 0 .15em; }
   .home-container .tech li {
