@@ -130,8 +130,8 @@ h1 {
 .contact-container .fa {
   font-size: 3em;
   padding: 0 1em; }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 545px) {
   .contact-container img {
-    width: 9em; } }
+    width: 10em; } }
 
 /*# sourceMappingURL=styles.css.map */
