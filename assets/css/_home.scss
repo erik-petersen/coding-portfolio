@@ -126,7 +126,66 @@
     }
 
 
-  }
+  } // end max-width: 555px
+
+  @media screen and ( max-width: 770px ) {
+
+    .portfolio-h1 {
+      color: $color-charcoal;
+      margin-bottom: 1.25em;
+    }
+
+    .thumbnail {
+      background-color: $color-myName;
+      border: none;
+      padding-left: .25em;
+      margin-bottom: 2em;
+    }
+
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    img {
+      width: 24em;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: inline;
+    }
+
+    .info-container {
+      padding-left: 1.2em;
+    }
+
+    .info-container-even {
+      padding: .5em 0 0 .15em;
+    }
+
+    .tech li {
+      padding-left: 0;
+    }
+
+    .etsy-thumbnail {
+      background-color: $color-green;
+      border: none;
+      padding-left: 0;
+      padding-bottom: 1.5%;
+      margin-left: 0;
+    }
+
+    .img-thumbnail, .thumbnail {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+    }
+
+    .img-home {
+      width: 100%;
+    }
+
+
+  } // end max-height: 691px
 
 
 

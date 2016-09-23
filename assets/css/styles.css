@@ -118,6 +118,39 @@ h1 {
     box-shadow: none; }
   .home-container .img-home {
     width: 100%; } }
+@media screen and (max-width: 770px) {
+  .home-container .portfolio-h1 {
+    color: #394144;
+    margin-bottom: 1.25em; }
+  .home-container .thumbnail {
+    background-color: #598CAE;
+    border: none;
+    padding-left: .25em;
+    margin-bottom: 2em; }
+  .home-container .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .home-container img {
+    width: 24em; }
+  .home-container .carousel-inner > .item > a > img, .home-container .carousel-inner > .item > img, .home-container .img-responsive, .home-container .thumbnail a > img, .home-container .thumbnail > img {
+    display: inline; }
+  .home-container .info-container {
+    padding-left: 1.2em; }
+  .home-container .info-container-even {
+    padding: .5em 0 0 .15em; }
+  .home-container .tech li {
+    padding-left: 0; }
+  .home-container .etsy-thumbnail {
+    background-color: #C9C39B;
+    border: none;
+    padding-left: 0;
+    padding-bottom: 1.5%;
+    margin-left: 0; }
+  .home-container .img-thumbnail, .home-container .thumbnail {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .home-container .img-home {
+    width: 100%; } }
 
 .about-container img {
   width: 17em; }
