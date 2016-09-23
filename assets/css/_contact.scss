@@ -14,4 +14,11 @@
     padding: 0 1em;
   }
 
+  @media screen and ( max-width: 555px ) {
+
+    img {
+      width: 9em;
+    }
+  }
+
 } // end .contact-container
