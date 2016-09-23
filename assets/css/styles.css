@@ -5,10 +5,10 @@
     line-height: 1.25em;
     text-align: center;
     margin-bottom: 1.75em;
-    padding-right: .5em; }
+    padding-right: 1em; }
 
   .navbar-toggle {
-    margin-right: 0; } }
+    margin-right: -5; } }
 .page-header {
   border: none;
   margin: 2em 5em 0; }
@@ -91,7 +91,7 @@ h1 {
   .home-container .carousel-inner > .item > a > img, .home-container .carousel-inner > .item > img, .home-container .img-responsive, .home-container .thumbnail a > img, .home-container .thumbnail > img {
     display: inline; }
   .home-container .info-container {
-    padding-left: 2em; }
+    padding-left: 2.5em; }
   .home-container .info-container-even {
     padding: .5em 0 0 1em; }
   .home-container .tech li {
