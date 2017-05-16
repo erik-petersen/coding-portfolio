@@ -1,0 +1,39 @@
+main {
+
+  img {
+    width: 65%;
+    margin: auto;
+  }
+
+  .intro {
+    width: 85%;
+    margin-top: 6em;
+
+    p {
+      font-size: 2em;
+      line-height: 1.5em;
+    }
+  } // end .intro
+
+  .row {
+
+    .app-description {
+      width: 80%;
+      margin-top: 3em;
+      margin-bottom: 3em;
+
+      p {
+        line-height: 1.5em;
+      }
+    } // end .app-description
+
+    .col-sm-12 {
+      margin-bottom: 7em;
+    }
+
+    .col-sm-12:nth-child(even) {
+      // not sure yet
+    }
+  } // end .row
+
+}
