@@ -11,7 +11,8 @@ main img {
   width: 65%;
   margin: auto; }
 main .intro {
-  width: 85%; }
+  width: 85%;
+  margin-top: 6em; }
   main .intro p {
     line-height: 1.5em; }
 main .row .app-description {
