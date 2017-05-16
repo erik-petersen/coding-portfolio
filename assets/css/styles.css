@@ -1,14 +1,18 @@
 img {
   width: 100%; }
 
+.laptop-banner {
+  display: none; }
+
+main .h1 {
+  margin-top: 2em;
+  margin-bottom: 2em; }
 main img {
   width: 65%;
   margin: auto; }
 main .intro {
-  width: 85%;
-  margin-top: 6em; }
+  width: 85%; }
   main .intro p {
-    font-size: 2em;
     line-height: 1.5em; }
 main .row .app-description {
   width: 80%;
@@ -17,6 +21,10 @@ main .row .app-description {
   main .row .app-description p {
     line-height: 1.5em; }
 main .row .col-sm-12 {
-  margin-bottom: 7em; }
+  padding-bottom: 7em; }
+main .row .col-sm-12:nth-child(even) {
+  background-color: grey; }
+  main .row .col-sm-12:nth-child(even) p {
+    color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */

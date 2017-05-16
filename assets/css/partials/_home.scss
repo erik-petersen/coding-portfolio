@@ -1,4 +1,13 @@
+.laptop-banner {
+    display: none;
+}
+
 main {
+
+  .h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 
   img {
     width: 65%;
@@ -7,10 +16,8 @@ main {
 
   .intro {
     width: 85%;
-    margin-top: 6em;
 
     p {
-      font-size: 2em;
       line-height: 1.5em;
     }
   } // end .intro
@@ -28,12 +35,18 @@ main {
     } // end .app-description
 
     .col-sm-12 {
-      margin-bottom: 7em;
+      padding-bottom: 7em;
     }
 
-    .col-sm-12:nth-child(even) {
-      // not sure yet
+    .col-sm-12:nth-child( even ) {
+      background-color: grey;
+
+      p {
+        color: #fff;
+      }
+
     }
+
   } // end .row
 
 }
