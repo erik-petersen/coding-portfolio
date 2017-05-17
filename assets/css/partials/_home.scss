@@ -9,6 +9,10 @@ main {
     margin-bottom: 2em;
   }
 
+  .h2 {
+    margin-top: 1.5em;
+  }
+
   img {
     width: 65%;
     margin: auto;
@@ -37,16 +41,27 @@ main {
 
     .col-sm-12 {
       padding-bottom: 7em;
-    }
+
+      .tech-heading {
+        margin: 3em auto 2em;
+      }
+
+    } // end .col-sm-12
 
     .col-sm-12:nth-child( even ) {
+
       background-color: grey;
 
       p {
         color: #fff;
       }
 
-    }
+      ul {
+        color: #fff;
+        // display: inline-flex;
+      }
+
+    } // end .col-sm-12:nth-child( even )
 
   } // end .row
 
