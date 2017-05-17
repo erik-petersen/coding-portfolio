@@ -17,6 +17,14 @@ header {
     background-color: #36454F;
 }
 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #36454F;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #36454F;
+}
+
 .navbar-inverse {
   background-color: #36454F;
   border-color: #36454F;
