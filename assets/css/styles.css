@@ -28,9 +28,9 @@ main .row .col-sm-12 {
   main .row .col-sm-12 .tech-heading {
     margin-top: 3em;
     margin-bottom: 2em;
-    font-size: 2.25em; }
+    font-size: 2.15em; }
   main .row .col-sm-12 ul li {
-    font-size: 3em; }
+    font-size: 2.75em; }
 main .row .col-sm-12:nth-child(even) {
   background-color: grey; }
   main .row .col-sm-12:nth-child(even) p {
@@ -38,6 +38,6 @@ main .row .col-sm-12:nth-child(even) {
   main .row .col-sm-12:nth-child(even) ul {
     color: #fff; }
     main .row .col-sm-12:nth-child(even) ul li {
-      font-size: 3em; }
+      font-size: 2.75em; }
 
 /*# sourceMappingURL=styles.css.map */
