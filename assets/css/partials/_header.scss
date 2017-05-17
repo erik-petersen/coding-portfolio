@@ -7,6 +7,16 @@ header {
   min-height: 10em;
 }
 
+.navbar-toggle .icon-bar {
+    font-size: 4em;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #36454F;
+}
+
 .navbar-inverse {
   background-color: #36454F;
   border-color: #36454F;
@@ -56,23 +66,31 @@ ul {
 
 @media screen and ( min-width: 768px ) {
 
-  .navbar-toggle {
-    display: none !important;
-  }
+  // .navbar-toggle {
+  //   display: none !important;
+  // }
+  //
+  // .navbar-collapse {
+  //   display: block !important;
+  // }
 
-  .navbar-collapse {
-    display: block !important;
-  }
 }
 
-@media (min-width: 250px) and (max-width: 768px) {
+@media (min-width: 250px) and (max-width: 990px) {
+  .navbar-collapse.collapse {
+        display: none!important;
+    }
 
   .navbar-toggle {
     display: block !important;
   }
-
-  .navbar-collapse {
-    display: none !important;
-  }
+  //
+  // .nav,
+  // .navbar-nav,
+  // .collapse,
+  // .navbar-collapse,
+  // .navbar-right {
+  //   display: none !important;
+  // }
 
 } // end media query min-width: 250 and max-width: 850
