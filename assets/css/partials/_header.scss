@@ -13,7 +13,7 @@ header {
 }
 
 .navbar-brand {
-  font-size: 1.75em;
+  font-size: 1.8em;
   margin-top: .35em;
 }
 
@@ -22,12 +22,20 @@ header {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-nav>li>a {
-    padding-top: 45px;
-  }
+  padding-top: 45px;
+}
+
+.nav.navbar-nav {
+  margin: auto;
+}
+
+.nav>li>a:first-of-type {
+    padding-left: 7px;
+}
 
 ul {
 
@@ -36,3 +44,35 @@ ul {
   }
 
 }
+
+.nav,
+.navbar-nav,
+.collapse,
+.navbar-collapse,
+.align-content-center,
+#myNavbar {
+  margin: auto;
+}
+
+@media screen and ( min-width: 768px ) {
+
+  .navbar-toggle {
+    display: none !important;
+  }
+
+  .navbar-collapse {
+    display: block !important;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 768px) {
+
+  .navbar-toggle {
+    display: block !important;
+  }
+
+  .navbar-collapse {
+    display: none !important;
+  }
+
+} // end media query min-width: 250 and max-width: 850
