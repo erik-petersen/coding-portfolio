@@ -1,6 +1,18 @@
 @media screen and ( max-width: 575px ) {
 
   .navbar-brand {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+}
+
+@media screen and ( max-width: 575px ) {
+
+  .navbar-brand {
     line-height: 1.25em;
     text-align: center;
     margin-bottom: 1.75em;

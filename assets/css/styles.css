@@ -2,6 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Cinzel+Decorative:400,700|Poiret+One);
 @media screen and (max-width: 575px) {
   .navbar-brand {
+    font-size: 1em; }
+
+  h1 {
+    font-size: 1.75em; } }
+@media screen and (max-width: 575px) {
+  .navbar-brand {
     line-height: 1.25em;
     text-align: center;
     margin-bottom: 1.75em;
@@ -123,6 +129,10 @@ h1 {
 .home-container .etsy aside {
   padding-bottom: .5em; }
 @media screen and (max-width: 555px) {
+  .home-container .carousel-inner > .item > a > img, .home-container .carousel-inner > .item > img, .home-container .thumbnail a > img, .home-container .thumbnail > img {
+    display: block;
+    max-width: 10em;
+    height: auto; }
   .home-container .portfolio-h1 {
     color: #394144;
     margin-bottom: 1.25em; }

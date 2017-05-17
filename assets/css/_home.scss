@@ -129,6 +129,12 @@
 
   @media screen and ( max-width: 555px ) {
 
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 10em;
+    height: auto;
+}
+
     .portfolio-h1 {
       color: $color-charcoal;
       margin-bottom: 1.25em;
