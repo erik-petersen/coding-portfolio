@@ -20,18 +20,24 @@ main .intro {
 main .row .app-description {
   width: 80%;
   margin-top: 3em;
-  margin-bottom: 3em; }
+  margin-bottom: 4.5em; }
   main .row .app-description p {
     line-height: 1.5em; }
 main .row .col-sm-12 {
   padding-bottom: 7em; }
   main .row .col-sm-12 .tech-heading {
-    margin: 3em auto 2em; }
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-size: 2em; }
+  main .row .col-sm-12 ul li {
+    font-size: 2em; }
 main .row .col-sm-12:nth-child(even) {
   background-color: grey; }
   main .row .col-sm-12:nth-child(even) p {
     color: #fff; }
   main .row .col-sm-12:nth-child(even) ul {
     color: #fff; }
+    main .row .col-sm-12:nth-child(even) ul li {
+      font-size: 2em; }
 
 /*# sourceMappingURL=styles.css.map */
