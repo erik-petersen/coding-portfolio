@@ -1,5 +1,10 @@
+header {
+  height: 10em;
+}
+
 .navbar {
   margin-bottom: 0;
+  min-height: 10em;
 }
 
 .navbar-inverse {
@@ -8,7 +13,8 @@
 }
 
 .navbar-brand {
-  font-size: 1em;
+  font-size: 1.75em;
+  margin-top: .35em;
 }
 
 .navbar-inverse .navbar-brand {
@@ -17,4 +23,16 @@
 
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
+}
+
+.navbar-nav>li>a {
+    padding-top: 45px;
+  }
+
+ul {
+
+  li {
+    font-size: 2.5em;
+  }
+
 }
