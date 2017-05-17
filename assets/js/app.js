@@ -5,10 +5,10 @@ portfolioApp.config( function( $routeProvider ) {
   .when( "/home", {
     templateUrl: "pages/home.html"
   })
-  .when( "about", {
+  .when( "/about", {
     templateUrl: "pages/about.html"
   })
-  .when( "contact", {
+  .when( "/contact", {
     templateUrl: "pages/contact.html"
   })
   .otherwise({
