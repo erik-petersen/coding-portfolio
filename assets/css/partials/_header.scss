@@ -7,6 +7,14 @@ header {
   min-height: 10em;
 }
 
+.nav {
+  // overflow: visible;
+}
+
+.nav li a {
+  color: #fff;
+}
+
 .navbar-toggle .fa-bars {
     font-size: 4.5em;
     color: #fff;
@@ -70,28 +78,35 @@ ul {
 .align-content-center,
 #myNavbar {
   margin: auto;
+  margin-top: 1.9em;
+  margin-right: 2em;
+  font-size: 1.15em;
 }
 
-@media screen and ( min-width: 768px ) {
+@media screen and ( min-width: 990px ) {
 
-  // .navbar-toggle {
-  //   display: none !important;
-  // }
-  //
-  // .navbar-collapse {
-  //   display: block !important;
-  // }
+  .navbar-toggle {
+    display: none !important;
+  }
+
+  .navbar-collapse {
+    display: block !important;
+  }
+
+  .navbar-nav {
+    display: inline-block !important;
+  }
 
 }
 
 @media (min-width: 250px) and (max-width: 990px) {
 
-  // .navbar-collapse.collapse {
-  //   display: none!important;
-  // }
-  //
-  // .navbar-toggle {
-  //   display: block !important;
-  // }
+  .navbar-collapse.collapse {
+    display: block !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
 
 } // end media query min-width: 250 and max-width: 850
