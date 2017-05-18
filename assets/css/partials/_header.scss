@@ -8,9 +8,9 @@ header {
 }
 
 .navbar-toggle .fa-bars {
-    font-size: 4em;
+    font-size: 4.5em;
     color: #fff;
-    margin-right: 1em;
+    margin-right: .5em;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -85,20 +85,13 @@ ul {
 }
 
 @media (min-width: 250px) and (max-width: 990px) {
-  .navbar-collapse.collapse {
-        display: none!important;
-    }
 
-  .navbar-toggle {
-    display: block !important;
-  }
+  // .navbar-collapse.collapse {
+  //   display: none!important;
+  // }
   //
-  // .nav,
-  // .navbar-nav,
-  // .collapse,
-  // .navbar-collapse,
-  // .navbar-right {
-  //   display: none !important;
+  // .navbar-toggle {
+  //   display: block !important;
   // }
 
 } // end media query min-width: 250 and max-width: 850
