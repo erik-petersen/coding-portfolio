@@ -185,8 +185,13 @@ ul li {
       font-size: 2.5em; } }
   @media screen and (min-width: 985px) {
     .about-container .my-profile {
-      width: 25%;
-      margin: 5% auto 5%; } }
+      width: 20%;
+      margin: 5% 2em 5% 4em;
+      float: left; }
+    .about-container .about-me {
+      margin-top: 2.5em;
+      width: 70%;
+      float: right; } }
 
 .contact-container {
   width: 92%; }
@@ -228,7 +233,17 @@ ul li {
       padding: 0 .25em; } }
   @media screen and (min-width: 985px) {
     .contact-container .my-profile {
-      width: 25%;
-      margin: 5% auto 5%; } }
+      width: 20%;
+      margin: 5% 2em 5% 4em;
+      float: left; }
+    .contact-container .text-large-screen {
+      width: 70%;
+      float: right;
+      margin-top: 5.5em; }
+    .contact-container p {
+      text-align: left; }
+    .contact-container .social {
+      margin-top: 10em;
+      margin-left: 25%; } }
 
 /*# sourceMappingURL=styles.css.map */

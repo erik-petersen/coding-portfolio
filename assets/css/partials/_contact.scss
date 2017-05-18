@@ -72,11 +72,28 @@
   } // end media query min-width: 250 and max-width: 850
 
   @media screen and ( min-width: 985px ) {
-    .my-profile {
-      width: 25%;
-      margin: 5% auto 5%;
-    }
-  }
 
+    .my-profile {
+      width: 20%;
+      margin: 5% 2em 5% 4em;
+      float: left;
+    }
+
+    .text-large-screen {
+      width: 70%;
+      float: right;
+      margin-top: 5.5em;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    .social {
+      margin-top: 10em;
+      margin-left: 25%;
+    }
+
+  }
 
 } // end .contact-container
