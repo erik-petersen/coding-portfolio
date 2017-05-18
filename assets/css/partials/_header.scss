@@ -109,4 +109,16 @@ ul {
     display: block;
   }
 
+  .nav,
+  .navbar-nav,
+  .collapse,
+  .navbar-collapse,
+  .align-content-center,
+  #myNavbar {
+    margin: auto;
+    margin-top: 2em;
+    padding-bottom: 1.5em;
+    font-size: 2em;
+  }
+
 } // end media query min-width: 250 and max-width: 850

@@ -118,6 +118,17 @@ ul li {
     display: block !important; }
 
   .navbar-toggle {
-    display: block; } }
+    display: block; }
+
+  .nav,
+  .navbar-nav,
+  .collapse,
+  .navbar-collapse,
+  .align-content-center,
+  #myNavbar {
+    margin: auto;
+    margin-top: 2em;
+    padding-bottom: 1.5em;
+    font-size: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */
