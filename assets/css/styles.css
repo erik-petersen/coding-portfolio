@@ -193,7 +193,7 @@ ul li {
     .contact-container .text-center {
       font-size: 1.5em; }
     .contact-container .social {
-      margin-top: 4em; }
+      margin-top: 7em; }
     .contact-container .social a {
       font-size: 2.5em;
       margin: 3em .1em 0;
@@ -205,9 +205,9 @@ ul li {
     .contact-container .text-center {
       font-size: 2.7em; }
     .contact-container .social {
-      margin-top: 1em; }
+      margin-top: 5em; }
     .contact-container .social a {
-      font-size: 2.25em;
+      font-size: 2.5em;
       margin: 1em .1em 0;
       padding: 0 .25em; } }
   @media (min-width: 550px) and (max-width: 860px) {
