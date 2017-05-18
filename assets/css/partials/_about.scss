@@ -21,7 +21,7 @@
 
     .my-profile {
       width: 22%;
-      margin: 10% auto 7%;
+      margin: 5% auto 5%;
     }
 
     .about-me-text,
@@ -33,6 +33,11 @@
   } // end media query min-width: 250 and max-width: 850
 
   @media (min-width: 550px) and (max-width: 860px) {
+
+    .my-profile {
+      width: 25%;
+      margin: 10% auto 7%;
+    }
 
     .about-me-text,
     .p1,

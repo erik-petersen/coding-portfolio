@@ -1,6 +1,6 @@
 .contact-container {
 
-  width: 90%;
+  width: 92%;
 
   .my-profile {
     width: 35%;
@@ -18,7 +18,7 @@
     }
 
     .social a {
-      font-size: 2.15em;
+      font-size: 2.1em;
       margin: 3em .1em 0;
       padding: 0 .25em;
     }
@@ -29,11 +29,21 @@
 
     .my-profile {
       width: 22%;
-      margin: 10% auto 7%;
+      margin: 5% auto 5%;
     }
 
     .text-center {
       font-size: 2.7em;
+    }
+
+    .social {
+      margin-top: 1em;
+    }
+
+    .social a {
+      font-size: 1.6em;
+      margin: 1em .1em 0;
+      padding: 0 .25em;
     }
 
   } // end media query min-width: 250 and max-width: 850
@@ -42,6 +52,16 @@
 
     .text-center {
       font-size: 2.5em;
+    }
+
+    .social {
+      margin-top: 5em;
+    }
+
+    .social a {
+      font-size: 2em;
+      margin: 3em .1em 0;
+      padding: 0 .25em;
     }
 
   } // end media query min-width: 250 and max-width: 850
