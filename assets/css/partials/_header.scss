@@ -1,10 +1,10 @@
 header {
-  height: 10em;
+  height: 12em;
 }
 
 .navbar {
   margin-bottom: 0;
-  min-height: 10em;
+  min-height: 12em;
 }
 
 .nav {
@@ -16,7 +16,7 @@ header {
 }
 
 .navbar-toggle .fa-bars {
-    font-size: 4.5em;
+    font-size: 5.25em;
     color: #fff;
 }
 
@@ -94,6 +94,11 @@ ul {
 
   .navbar-nav {
     display: inline-block !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.75em;
+    margin-top: .35em;
   }
 
 }
