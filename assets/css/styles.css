@@ -46,7 +46,12 @@ main .row .col-sm-12:nth-child(even) {
   main .mobile-banner {
     display: none; }
   main .laptop-banner {
-    display: block; } }
+    display: block; }
+  main .col-sm-12 .tech-heading {
+    font-size: 1.6em !important; }
+  main .col-sm-12:nth-child(odd) ul li,
+  main .col-sm-12:nth-child(even) ul li {
+    font-size: 1.5em !important; } }
 
 header {
   height: 10em; }
@@ -60,8 +65,7 @@ header {
 
 .navbar-toggle .fa-bars {
   font-size: 4.5em;
-  color: #fff;
-  margin-right: .5em; }
+  color: #fff; }
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #36454F; }
@@ -118,6 +122,15 @@ ul li {
 
   .navbar-nav {
     display: inline-block !important; } }
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .navbar-brand {
+    font-size: 1.3em;
+    margin-top: .35em; }
+
+  .about-me-text,
+  .p1,
+  .lead {
+    font-size: 1.5em; } }
 @media (min-width: 250px) and (max-width: 990px) {
   .navbar-collapse.collapse {
     display: block !important; }
@@ -134,6 +147,65 @@ ul li {
     margin: auto;
     margin-top: 2em;
     padding-bottom: 1.5em;
-    font-size: 1.9em; } }
+    font-size: 1.9em; }
+
+  .about-me-text,
+  .p1,
+  .lead {
+    font-size: 1.5em; } }
+.about-container {
+  width: 90%; }
+
+.my-profile {
+  width: 35%;
+  margin: 10% auto; }
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .about-me-text,
+  .p1,
+  .lead {
+    font-size: 1.5em; } }
+@media (min-width: 860px) {
+  .my-profile {
+    width: 22%;
+    margin: 10% auto 7%; }
+
+  .about-me-text,
+  .p1,
+  .lead {
+    font-size: 2.7em; } }
+@media (min-width: 550px) and (max-width: 860px) {
+  .about-me-text,
+  .p1,
+  .lead {
+    font-size: 2.5em; } }
+.contact-container {
+  width: 90%; }
+
+.my-profile {
+  width: 35%;
+  margin: 10% auto; }
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .text-center {
+    font-size: 1.5em; }
+
+  .social {
+    margin-top: 5em; }
+
+  .social a {
+    font-size: 2.15em;
+    margin: 3em .1em 0;
+    padding: 0 .25em; } }
+@media (min-width: 860px) {
+  .my-profile {
+    width: 22%;
+    margin: 10% auto 7%; }
+
+  .text-center {
+    font-size: 2.7em; } }
+@media (min-width: 550px) and (max-width: 860px) {
+  .text-center {
+    font-size: 2.5em; } }
 
 /*# sourceMappingURL=styles.css.map */

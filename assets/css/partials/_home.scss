@@ -89,9 +89,18 @@ main {
     .mobile-banner {
       display: none;
     }
-    
+
     .laptop-banner {
       display: block;
+    }
+
+    .col-sm-12 .tech-heading {
+        font-size: 1.6em !important;
+    }
+
+    .col-sm-12:nth-child( odd ) ul li,
+    .col-sm-12:nth-child( even ) ul li {
+      font-size: 1.5em !important;
     }
 
   }
