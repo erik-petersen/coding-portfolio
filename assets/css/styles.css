@@ -184,7 +184,7 @@ ul li {
       font-size: 1.5em; } }
   @media (min-width: 860px) {
     .about-container .my-profile {
-      width: 30%;
+      width: 22%;
       margin: 5% auto 5%; }
     .about-container .about-me-text,
     .about-container .p1,
@@ -204,14 +204,19 @@ ul li {
       margin: 5% 2em 5% 4em;
       float: left; }
     .about-container .about-me {
-      margin-top: 2.5em;
+      margin-top: 5em;
       width: 70%;
-      float: right; } }
+      float: right; }
+    .about-container .about-me-text {
+      font-size: 1.8em; } }
   @media screen and (min-width: 1480px) {
     .about-container .about-me {
       margin-top: 4.5em;
       line-height: 1.85em; } }
 
+@media screen and (min-width: 985px) {
+  .about-container {
+    margin-top: 2em; } }
 .contact-container {
   width: 92%; }
   .contact-container .my-profile {
@@ -228,7 +233,7 @@ ul li {
       padding: 0 .25em; } }
   @media (min-width: 860px) {
     .contact-container .my-profile {
-      width: 30%;
+      width: 22%;
       margin: 5% auto 5%; }
     .contact-container .text-center {
       font-size: 2.7em; }
@@ -251,6 +256,8 @@ ul li {
       margin: 3em .1em 0;
       padding: 0 .25em; } }
   @media screen and (min-width: 985px) {
+    .contact-container .contact-container {
+      margin-top: 2em; }
     .contact-container .my-profile {
       width: 17%;
       margin: 5% 2em 5% 4em;
@@ -259,18 +266,31 @@ ul li {
       width: 70%;
       float: right;
       margin-top: 5.5em; }
+    .contact-container .text-center {
+      font-size: 1.8em;
+      text-align: left; }
     .contact-container p {
       text-align: left; }
     .contact-container .social {
-      margin-top: 13em;
-      margin-left: 25%; }
+      width: 70%;
+      float: right;
+      margin-top: 0em;
+      margin-left: 0; }
     .contact-container .social a {
-      font-size: 2.15em;
+      font-size: 1.15em;
       margin: 1em .1em 0;
       padding: 0 .25em; } }
   @media screen and (min-width: 1480px) {
+    .contact-container .contact-container {
+      margin-top: 2em; }
     .contact-container .social {
-      margin-top: 18em;
-      margin-left: 25%; } }
+      width: 70%;
+      float: right;
+      margin-top: 0em;
+      margin-left: 0%; } }
+
+@media screen and (min-width: 985px) {
+  .contact-container {
+    margin-top: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */

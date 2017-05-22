@@ -28,7 +28,7 @@
   @media (min-width: 860px) {
 
     .my-profile {
-      width: 30%;
+      width: 22%;
       margin: 5% auto 5%;
     }
 
@@ -73,6 +73,10 @@
 
   @media screen and ( min-width: 985px ) {
 
+    .contact-container {
+      margin-top: 2em;
+    }
+
     .my-profile {
       width: 17%;
       margin: 5% 2em 5% 4em;
@@ -85,30 +89,51 @@
       margin-top: 5.5em;
     }
 
+    .text-center {
+        font-size: 1.8em;
+        text-align: left;
+    }
+
     p {
       text-align: left;
     }
 
     .social {
-      margin-top: 13em;
-      margin-left: 25%;
+        width: 70%;
+        float: right;
+        margin-top: 0em;
+        margin-left: 0;
     }
 
     .social a {
-      font-size: 2.15em;
-      margin: 1em .1em 0;
-      padding: 0 .25em;
+        font-size: 1.15em;
+        margin: 1em .1em 0;
+        padding: 0 .25em;
     }
 
   }
 
   @media screen and ( min-width: 1480px ) {
 
+    .contact-container {
+      margin-top: 2em;
+    }
+
     .social {
-      margin-top: 18em;
-      margin-left: 25%;
+        width: 70%;
+        float: right;
+        margin-top: 0em;
+        margin-left: 0%;
     }
 
   }
 
 } // end .contact-container
+
+@media screen and ( min-width: 985px ) {
+
+  .contact-container {
+    margin-top: 2em;
+  }
+  
+}

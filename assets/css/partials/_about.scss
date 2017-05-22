@@ -20,7 +20,7 @@
   @media (min-width: 860px) {
 
     .my-profile {
-      width: 30%;
+      width: 22%;
       margin: 5% auto 5%;
     }
 
@@ -55,9 +55,13 @@
     }
 
     .about-me {
-      margin-top: 2.5em;
+      margin-top: 5em;
       width: 70%;
       float: right;
+    }
+
+    .about-me-text {
+      font-size: 1.8em;
     }
 
   }
@@ -72,3 +76,11 @@
     }
 
 } // end .about-container
+
+@media screen and ( min-width: 985px ) {
+
+  .about-container {
+    margin-top: 2em;
+  }
+
+}
