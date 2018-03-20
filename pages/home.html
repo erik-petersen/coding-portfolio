@@ -1,127 +1,100 @@
 <div class="home-container">
 
-  <!-- large baking/computer pic -->
-  <div class="container-fluid">
-    <img src="assets/images/bigger-one.jpg" class="img-home img-responsive" alt="Computer with Baking Ingredients">
-  </div>
+  <img class="img-responsive mobile-banner" src="assets/images/bigger-banner.jpg" alt="Picture of me at computer">
+<img class="img-responsive laptop-banner" src="assets/images/banner-pic.jpg" alt="Picture of me at computer">
 
-  <div class="container-fluid">
-    <h1 class="text-center portfolio-h1">&lt;Portfolio&gt;</h1>
+<main class="container-fluid text-center">
 
-    <!-- portfolio: project 1 -->
-    <div class="row row-1">
+  <!-- about me section -->
+  <section class="intro center-block">
+    <p class="lead text-left">
+      Thanks for visiting my site. A little about me...I am currently volunteering as programmer writing automated tests for
+      a company in Cary, NC.  I love coding, take pride in my work, and enjoy seeing code that I write do something helpful for
+      people. I'm amazed and excited about how many frameworks and technologies there are to utilize and I enjoy spending time
+      learning them. At the moment, I'm exploring Bootstrap, PHP, and diving deeper into Angular.
+    </p>
+  </section>
+
+  <!-- portfolio section -->
+  <section class="row">
+    <p class="h1">&lt;My-Portfolio /&gt;</p>
+    <div class="col-sm-12 col-md-4 col-lg-4 homeshare-section">
+      <p class="h2 text-muted">Homeshare</p>
       <a href="https://github.com/tiyd-fee-2016-05/homeshare">
-        <div class="col-sm-6 col-md-4 left-column">
-          <div class="thumbnail">
-            <img src="assets/images/homeshare2.png" alt="Picture of Homeshare Project">
-          </div><!-- end thumbnail -->
-        </div>
-        <!-- <div class="info-container"> -->
-        <aside>
-          <h2>Homeshare</h2>
-          <p>Homeshare was our final project at The Iron Yard.  The mobile app was created to allow roommates or family members stay organized
-            with daily household chores and have fun while doing it! Our group cross-collaborated by using an Angular front-end that spoke
-            to a Rails back-end.
-          </p>
-          <h3 class="tech-heading">Technologies</h3>
-          <ul class="tech">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bower</li>
-            <li>Sass</li>
-            <li>Susy</li>
-            <li>AngularJS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Local Storage</li>
-            <li>Github</li>
-          </ul>
-        </aside>
+        <img class="img-responsive img-rounded" src="assets/images/homeshare.png" alt="Picture of Homeshare Sign Up Page">
       </a>
-    </div>
+      <div class="app-description center-block">
+        <p class="text-left lead">
+          Homeshare was our final project at The Iron Yard.  The mobile app was created to allow roommates or family members stay organized
+          with daily household chores and have fun while doing it! Our group cross-collaborated by using an Angular front-end that spoke
+          to a Rails back-end.
+        </p>
+      </div>
+      <p class="h3 text-muted tech-heading">Technologies Used</p>
+      <ul class="technologies center-block">
+        <li class="col-sm-4 lead">HTML5</li>
+        <li class="col-sm-4 lead">CSS3</li>
+        <li class="col-sm-4 lead">Bower</li>
+        <li class="col-sm-4 lead">Sass</li>
+        <li class="col-sm-4 lead">Susy</li>
+        <li class="col-sm-4 lead">AngularJS</li>
+        <li class="col-sm-4 lead">JavaScript</li>
+        <li class="col-sm-4 lead">jQuery</li>
+        <li class="col-sm-4 lead">Trello</li>
+        <li class="col-sm-4 lead">Github</li>
+      </ul>
+    </div><!-- end .col-sm-4 -->
 
-    <!-- portfolio: project 2 -->
-    <div class="row row-2 etsy">
+    <div class="col-sm-12 col-md-4 col-lg-4">
+      <p class="h2 text-muted">Etsy</p>
       <a href="https://github.com/tiyd-fee-2016-05/frankenEtsy/tree/categories">
-        <div class="col-sm-6 col-md-4 pull-right">
-          <div class="thumbnail etsy-thumbnail">
-            <img src="assets/images/etsy3.png" alt="Picture of Etsy Project">
-          </div><!-- end thumbnail -->
-        </div>
-        <!-- <div class="info-container-even"> -->
-        <aside>
-          <h2>Etsy Clone</h2>
-          <p class="etsy-p">Yes, we cloned Etsy.  What tech education would be complete without the shady cloning of a popular website?  Our entire
-            class came together.  My partner and I took on the categories page using an Angular front-end talking to Etsy's API in order to bring
-            in everything that populates the page.  We made use of localstorage when a user clicks on an item.
-          </p>
-          <h3 class="tech-heading etsy-tech-heading">Technologies</h3>
-          <ul class="etsy-tech">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Sass</li>
-            <li>AngularJS</li>
-            <li>JavaScript</li>
-            <li>Local Storage</li>
-            <li>Trello</li>
-            <li>Github</li>
-          </ul>
-        </aside>
+        <img class="img-responsive img-rounded" src="assets/images/etsy.png" alt="Picture of Homeshare Sign Up Page">
       </a>
-    </div>
+      <div class="app-description center-block">
+        <p class="text-left lead">
+          Yes, we cloned Etsy.  What tech education would be complete without the shady cloning of a popular website?  Our entire
+            class came together.  My partner and I took on the categories page using an Angular front-end talking to Etsy's API
+            in order to bring in everything that populates the page.  We made use of localstorage when a user clicks on an item.
+        </p>
+      </div>
+      <p class="h3 text-muted tech-heading">Technologies Used</p>
+      <ul class="center-block">
+        <li class="col-sm-4 lead">HTML5</li>
+        <li class="col-sm-4 lead">CSS3</li>
+        <li class="col-sm-4 lead">Bower</li>
+        <li class="col-sm-4 lead">Sass</li>
+        <li class="col-sm-4 lead">AngularJS</li>
+        <li class="col-sm-4 lead">JavaScript</li>
+        <li class="col-sm-4 lead">Local Storage</li>
+        <li class="col-sm-4 lead">Trello</li>
+        <li class="col-sm-4 lead">Github</li>
+      </ul>
+    </div><!-- end .col-sm-4 -->
 
-    <!-- portfolio: project 3 -->
-    <div class="row row-3">
+    <div class="col-sm-12 col-md-4 col-lg-4">
+      <p class="h2 text-muted">Catalan Opening</p>
       <a href="https://github.com/erik-petersen/Chessboard/tree/gh-pages">
-        <div class="col-sm-6 col-md-4 left-column">
-          <div class="thumbnail">
-            <img src="assets/images/chess.png" alt="Picture of Chess Game">
-          </div><!-- end thumbnail -->
-        </div>
-        <!-- <div class="info-container"> -->
-        <aside>
-          <h2>The Catalan Opening</h2>
-          <p>The Catalan Opening is a popular chess opening that was created in the 1920s.  In this app, I used jQuery to
-             navigate forward and backward through the first nine moves.  There is also an optional play/pause feature.
-          </p>
-          <h3 class="tech-heading">Technologies</h3>
-          <ul class="tech">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bower</li>
-            <li>Sass</li>
-            <li>Susy</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Github</li>
-          </ul>
-        </aside>
+        <img class="img-responsive img-rounded" src="assets/images/chess-game.png" alt="Picture of Homeshare Sign Up Page">
       </a>
-    </div>
+      <div class="app-description center-block">
+        <p class="text-left lead">
+          The Catalan Opening is a popular chess opening that was created in the 1920s.  In this app, I used jQuery to
+          navigate forward and backward through the first nine moves.  There is also an optional play/pause feature.
+        </p>
+      </div>
+      <p class="h3 text-muted tech-heading">Technologies Used</p>
+      <ul class="center-block">
+        <li class="col-sm-4 lead">HTML5</li>
+        <li class="col-sm-4 lead">CSS3</li>
+        <li class="col-sm-4 lead">Bower</li>
+        <li class="col-sm-4 lead">Sass</li>
+        <li class="col-sm-4 lead">Susy</li>
+        <li class="col-sm-4 lead">JavaScript</li>
+        <li class="col-sm-4 lead">jQuery</li>
+        <li class="col-sm-4 lead">Github</li>
+      </ul>
+    </div><!-- end .col-sm-4 -->
 
-    <!-- portfolio: project 4 -->
-    <div class="row row-2">
-      <a href="http://www.jenerikphotography.com">
-        <div class="col-sm-6 col-md-4 pull-right">
-          <div class="thumbnail jenerik-pic">
-            <img src="assets/images/jenerik-photography.png" alt="Collage of JenErik Photography Pictures">
-          </div><!-- end thumbnail -->
-        </div>
-        <!-- <div class="info-container"> -->
-        <aside class="jenerik-aside">
-          <h2>JenErik Photography</h2>
-          <p>JenErik Photography is a website I designed for my wife as she was developing her portfolio.  I used a photographer
-            template that she had purchased.  She only does photography as a hobbie now, so it does not have much new content.
-          </p>
-          <h3 class="tech-heading">Technologies</h3>
-          <ul class="tech">
-            <li>Wordpress</li>
-            <li>HTML5</li>
-            <li>Github</li>
-          </ul>
-        </aside>
-      </a>
-    </div>
+  </section>
 
-  </div><!-- end container-fluid -->
-</div><!-- end home-container -->
+</main>

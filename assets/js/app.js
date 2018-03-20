@@ -1,6 +1,6 @@
-var myApp = angular.module( "myApp", ["ngRoute"] );
+var portfolioApp = angular.module( "portfolioApp", [ "ngRoute" ] );
 
-myApp.config( function( $routeProvider ) {
+portfolioApp.config( function( $routeProvider ) {
   $routeProvider
   .when( "/home", {
     templateUrl: "pages/home.html"
@@ -14,4 +14,4 @@ myApp.config( function( $routeProvider ) {
   .otherwise({
     redirectTo: "/home"
   });
-}); // end myApp.config
+}); // end portfolioApp.config
